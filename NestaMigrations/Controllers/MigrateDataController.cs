@@ -74,7 +74,8 @@ namespace NestaMigrations.Controllers
                     logo = "",
                     shortDescription = "",
                     headerImage = "",
-                    importID = ""
+                    importID = "",
+                    ownerID = 0
                 };
 
                 organisations.Add(org);
