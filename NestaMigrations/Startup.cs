@@ -36,6 +36,8 @@ namespace NestaMigrations
             services.AddTransient<AltecService, AltecService>();
             services.AddTransient<CountryService, CountryService>();
             services.AddTransient<OrganisationTypesService, OrganisationTypesService>();
+            services.AddTransient<UsersService, UsersService>();
+            services.AddTransient<OrganisationService, OrganisationService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

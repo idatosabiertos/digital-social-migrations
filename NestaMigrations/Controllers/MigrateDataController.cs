@@ -1,6 +1,8 @@
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using NestaMigrations.Model;
@@ -60,6 +62,11 @@ namespace NestaMigrations.Controllers
                 {
                 }
 
+                DateTime createDate = new DateTime();
+                int createYear = DateTime.Now.Year;
+                if (Int32.TryParse(organisation.OrgFechaCreacion, out createYear))
+                    createDate = new DateTime(createYear, 1, 1);
+
                 var org = new Organisation()
                 {
                     address = $"{organisation.OrgCiudad}, {organisation.OrgPais}",
@@ -77,7 +84,9 @@ namespace NestaMigrations.Controllers
                     shortDescription = "",
                     headerImage = "",
                     importID = "",
-                    ownerID = 0
+                    ownerID = 0,
+                    startDate = createDate,
+                    organisationSizeID = OrganisationSizesId.GetIdFrom(organisation.EmpleadosRangoCantidad)
                 };
 
                 organisations.Add(org);
@@ -180,6 +189,107 @@ namespace NestaMigrations.Controllers
             this._context.SaveChanges();
 
             return projectsOrganisationsCount;
+        }
+
+        [HttpGet("altec-users")]
+        public int MigrateUsersAltec() {
+            var rows = AltecService.ImportData();
+            var organisationsQuery = rows.GroupBy(x => x.OrgNombreOrganizacion).ToList();
+            int i = 0;
+
+            List<Users> users = new List<Users>();
+
+            foreach (var queryItem in organisationsQuery)
+            {
+                var organisation = queryItem.First();
+
+                var user = new Users()
+                {
+                    email = organisation.Mail,
+                    company = this.shortOrganization(organisation.OrgNombreOrganizacion),
+                    fname = organisation.UserFullName,
+                    bio = "",
+                    isAdmin = false,
+                    isDisabled = false,
+                    isSuperAdmin = false,
+                    cityName = "",
+                    countryName = "",
+                    facebookUID = "",
+                    googleUID = "",
+                    jobTitle = "",
+                    lname = "",
+                    location = "",
+                    profilePic = "",
+                    profileURL = "",
+                    role = UserRoles.User,
+                    showEmail = false,
+                    twitterUID ="",
+                    password = "",
+                    gitHubUID = ""
+                };
+
+                this._context.Users.Add(user);
+
+                i++;
+            }
+
+            this._context.SaveChanges();
+
+            return i;
+        }
+
+        [HttpGet("altec-organisation-users")]
+        public int MigrateUsersOrganisationsAltec()
+        {
+            var rows = AltecService.ImportData();
+            var organisationsQuery = rows.GroupBy(x => x.OrgNombreOrganizacion).ToList();
+            int i = 0;
+
+            List<Users> users = new List<Users>();
+
+            foreach (var queryItem in organisationsQuery)
+            {
+                var orgItem = queryItem.First();
+                var userId = this._context.Users.Where(x => x.email == orgItem.Mail).First().id;
+                var orgName = this.shortOrganization(orgItem.OrgNombreOrganizacion);
+
+                var organisationDB = this._context.Organisations.Where(x => x.name == orgName).First();
+                organisationDB.ownerID = userId;
+                
+                i++;
+            }
+
+            this._context.SaveChanges();
+
+            return i;
+        }
+
+        [HttpGet("altec-organisation-tags")]
+        public int MigrateOrganisationTagsAltec()
+        {
+            var rows = AltecService.ImportData();
+            var organisationsQuery = rows.GroupBy(x => this.shortOrganization(this.RemoveDiacritics(x.OrgNombreOrganizacion.Trim().ToUpper()))).Distinct().ToList();
+            int i = 0;
+
+            List<Users> users = new List<Users>();
+
+            foreach (var queryItem in organisationsQuery)
+            {
+                var orgItem = queryItem.First();
+
+                var orgId = this._context.Organisations.Where(x => x.name == this.shortOrganization(orgItem.OrgNombreOrganizacion)).First().id;
+                var tags = OrganisationTags.GetImpactTagsId(orgItem).Distinct().ToList();
+                foreach (var tag in tags)
+                {
+                    this._context.OrganisationTags.Add(new OrganisationTag() { organisationId = orgId, tagId = tag });
+                }
+
+                i++;
+            }
+
+            this._context.SaveChanges();
+
+            return i;
         }
         #endregion
 
@@ -340,5 +450,34 @@ namespace NestaMigrations.Controllers
             return projectsOrganisationsCount;
         }
         #endregion
+
+        #region generic
+        public void UpdateCities() {
+
+        }
+        #endregion
+
+
+        public string shortOrganization(string organisation) {
+            return  organisation.Length > 250 ? organisation.Substring(0, 250) : organisation;
+
+        }
+
+        string RemoveDiacritics(string text)
+        {
+            string formD = text.Normalize(NormalizationForm.FormD);
+            StringBuilder sb = new StringBuilder();
+
+            foreach (char ch in formD)
+            {
+                UnicodeCategory uc = CharUnicodeInfo.GetUnicodeCategory(ch);
+                if (uc != UnicodeCategory.NonSpacingMark)
+                {
+                    sb.Append(ch);
+                }
+            }
+
+            return sb.ToString().Normalize(NormalizationForm.FormC);
+        }
     }
 }

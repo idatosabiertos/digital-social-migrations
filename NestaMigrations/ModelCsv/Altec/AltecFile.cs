@@ -10,6 +10,20 @@ namespace NestaMigrations.ModelCsv.Altec
         public string NombreIniciativa { get; set; }
         public int CantidadOrganizaciones { get; set; }
 
+        public string Alianza { get; set; }
+        public string Alianza2 { get; set; }
+        public string UserFullName { get; set; }
+        public string Mail { get; set; }
+        public string UsernameSkype { get; set; }
+        public string EmpleadosRangoCantidad { get; set; }
+        public string EmpleadosTotalMujeres { get; set; }
+        public string EmpleadosTotalLideres { get; set; }
+        public string EmpleadosTotalMujeresLideres { get; set; }
+        public string EmpleadosTotalDirectores { get; set; }
+        public string EmpleadosTotalDirectoresMujeres { get; set; }
+        public string VoluntariosActivos { get; set; }
+        public string OrgFechaCreacion { get; set; }
+        
         public string LineaFinanciamiento { get; set; }
         //Tematicas
         public bool ParticipacionCiudadana { get; set; }

@@ -14,7 +14,7 @@ namespace NestaMigrations.Services
 
             List<AltecFile> altecFileRows;
 
-            using (TextReader reader = File.OpenText(@"C:\Users\jonaa\Repositorio\nesta-migrations\nesta-migrations\NestaMigrations\ModelCsv\altec.csv"))
+            using (TextReader reader = File.OpenText(@"C:\Users\jonaa\Repositorio\digital-social-migrations\NestaMigrations\ModelCsv\Altec\altec.csv"))
             {
                 var csv = new CsvReader(reader);
                 altecFileRows = csv.GetRecords<AltecFile>().ToList();
