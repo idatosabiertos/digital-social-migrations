@@ -1,13 +1,16 @@
 using System;
 using System.Collections.Generic;
 using System.Globalization;
+using System.IO;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using NestaMigrations.Model;
 using NestaMigrations.ModelCsv.Abrelatam;
 using NestaMigrations.Services;
+using Newtonsoft.Json;
 using static Microsoft.AspNetCore.Hosting.Internal.HostingApplication;
 
 namespace NestaMigrations.Controllers
@@ -291,6 +294,67 @@ namespace NestaMigrations.Controllers
 
             return i;
         }
+
+        [HttpGet("altec-countries")]
+        public int MigrateCountriesAltec()
+        {
+            var rows = AltecService.ImportData();
+            var countries = rows.Select(x => x.OrgPais).Distinct().ToList();
+            int i = 0;
+
+            foreach (var countryName in countries)
+            {
+                var country = this._context.Countries.Where(x => x.name == countryName).FirstOrDefault();
+                if (country == null)
+                {
+                    this._context.Countries.Add(new Country()
+                    {
+                        name = countryName
+                    });
+                }
+                else {
+                    //
+                }
+              
+                i++;
+            }
+
+            this._context.SaveChanges();
+
+            return i;
+        }
+
+        [HttpGet("altec-country-regions")]
+        public int MigrateCountryRegions()
+        {
+            var rows = AltecService.ImportData();
+            var regions = rows.Select(x => new { country = x.OrgPais, region = x.OrgCiudad}).Distinct().ToList();
+            int i = 0;
+
+            foreach (var r in regions)
+            {
+                var country = this._context.Countries.Where(x => x.name == r.country).First();
+                var region = this._context.CountryRegions.Where(x => x.name == r.region).FirstOrDefault();
+
+                if (region == null)
+                {
+                    this._context.CountryRegions.Add(new CountryRegion() {
+                        countryID = country.id,
+                        name = r.region
+                    });
+                }
+                else
+                {
+                    region.countryID = country.id;
+                }
+
+                i++;
+            }
+
+            this._context.SaveChanges();
+
+            return i;
+        }
         #endregion
 
         #region abrelatam
@@ -449,13 +513,33 @@ namespace NestaMigrations.Controllers
 
             return projectsOrganisationsCount;
         }
+
         #endregion
 
         #region generic
+        [HttpGet("update-cities")]
         public void UpdateCities() {
 
+            var regions = this._context.CountryRegions.Where(x => x.lat == 0 || x.lng == 0);
+
+            foreach (var region in regions)
+            {
+                var country = this._context.Countries.Where(x => x.id == region.countryID).First();
+                var url = $"http://maps.google.com/maps/api/geocode/json?address={region.name},%20{country.name}&fields=address_component";
+
+                string locRes = Get(url);
+                dynamic obj = JsonConvert.DeserializeObject<Object>(locRes);
+                var lat = Convert.ToDecimal(obj.results[0].geometry.location.lat);
+                var lng = Convert.ToDecimal(obj.results[0].geometry.location.lng);
+
+                region.lat = lat;
+                region.lng = lng;
+                System.Threading.Thread.Sleep(2000);
+                Console.WriteLine($"{region.id} {region.name}, {country.name} {lat} {lng}");
+                this._context.SaveChanges();
+            }
+
         }
-        #endregion
 
 
         public string shortOrganization(string organisation) {
@@ -479,5 +563,20 @@ namespace NestaMigrations.Controllers
 
             return sb.ToString().Normalize(NormalizationForm.FormC);
         }
+
+        public string Get(string uri)
+        {
+            HttpWebRequest request = (HttpWebRequest)WebRequest.Create(uri);
+            request.AutomaticDecompression = DecompressionMethods.GZip | DecompressionMethods.Deflate;
+
+            using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
+            using (Stream stream = response.GetResponseStream())
+            using (StreamReader reader = new StreamReader(stream))
+            {
+                return reader.ReadToEnd();
+            }
+        }
+        #endregion
+
     }
 }
