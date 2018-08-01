@@ -12,10 +12,12 @@ namespace NestaMigrations.Services
             {
                 case "Empresa privada(startup)":
                 case "Empresa privada (startup)":
+                case "Sector Privado":
                     return 1;
 
                 case "Organización civil sin fines de lucro (ONG)":
                 case "Organización civil sin fines de lucro":
+                case "Soc.Civil":
                     return 6;
 
                 case "Fundación internacional":
@@ -32,6 +34,7 @@ namespace NestaMigrations.Services
 
                 case "Universidad":
                 case "Universidad/Instituto de investigación":
+                case "Investigacion":
                     return 7;
 
                 case "Empresa social":

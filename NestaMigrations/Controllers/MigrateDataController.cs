@@ -159,7 +159,7 @@ namespace NestaMigrations.Controllers
         public int MigrateProjectsOrganisationsAltec()
         {
             var rows = AltecService.ImportData();
-            var projectsOrganisationsQuery = rows.Select(po => new { project = po.NombreIniciativa, organisation = po.OrgNombreOrganizacion}).ToList();
+            var projectsOrganisationsQuery = rows.Select(po => new { project = po.NombreIniciativa, organisation = po.OrgNombreOrganizacion }).ToList();
             int projectsOrganisationsCount = 0;
 
             List<OrganisationProject> organisationProjects = new List<OrganisationProject>();
@@ -182,7 +182,8 @@ namespace NestaMigrations.Controllers
                 bool existDB = this._context.OrganisationProjects.Where(x => x.organisationID == op.organisationID && x.projectID == op.projectID).Any();
                 bool existCsv = organisationProjects.Where(x => x.organisationID == op.organisationID && x.projectID == op.projectID).Any();
 
-                if (!existCsv && !existDB) {
+                if (!existCsv && !existDB)
+                {
                     this._context.OrganisationProjects.Add(op);
                     organisationProjects.Add(op);
                     projectsOrganisationsCount++;
@@ -195,7 +196,8 @@ namespace NestaMigrations.Controllers
         }
 
         [HttpGet("altec-users")]
-        public int MigrateUsersAltec() {
+        public int MigrateUsersAltec()
+        {
             var rows = AltecService.ImportData();
             var organisationsQuery = rows.GroupBy(x => x.OrgNombreOrganizacion).ToList();
             int i = 0;
@@ -226,7 +228,7 @@ namespace NestaMigrations.Controllers
                     profileURL = "",
                     role = UserRoles.User,
                     showEmail = false,
-                    twitterUID ="",
+                    twitterUID = "",
                     password = "",
                     gitHubUID = ""
                 };
@@ -258,7 +260,7 @@ namespace NestaMigrations.Controllers
 
                 var organisationDB = this._context.Organisations.Where(x => x.name == orgName).First();
                 organisationDB.ownerID = userId;
-                
+
                 i++;
             }
 
@@ -312,10 +314,11 @@ namespace NestaMigrations.Controllers
                         name = countryName
                     });
                 }
-                else {
+                else
+                {
                     //
                 }
-              
+
                 i++;
             }
 
@@ -328,7 +331,7 @@ namespace NestaMigrations.Controllers
         public int MigrateCountryRegions()
         {
             var rows = AltecService.ImportData();
-            var regions = rows.Select(x => new { country = x.OrgPais, region = x.OrgCiudad}).Distinct().ToList();
+            var regions = rows.Select(x => new { country = x.OrgPais, region = x.OrgCiudad }).Distinct().ToList();
             int i = 0;
 
             foreach (var r in regions)
@@ -338,7 +341,8 @@ namespace NestaMigrations.Controllers
 
                 if (region == null)
                 {
-                    this._context.CountryRegions.Add(new CountryRegion() {
+                    this._context.CountryRegions.Add(new CountryRegion()
+                    {
                         countryID = country.id,
                         name = r.region
                     });
@@ -358,17 +362,98 @@ namespace NestaMigrations.Controllers
         #endregion
 
         #region abrelatam
+        [HttpGet("abrelatam-users")]
+        public int MigrateUsersAbrelatam()
+        {
+            var rows = AbrelatamService.ImportData();
+            var users = rows.Select(u => new
+            {
+                organisation = u.Nombre,
+                userName = u.PuntoContacto,
+                mail = u.Mail
+            }).Distinct().ToList();
+
+            int i = 0;
+
+            foreach (var u in users)
+            {
+                if (!String.IsNullOrEmpty(u.mail))
+                {
+
+                    var user = new Users()
+                    {
+                        email = u.mail,
+                        company = this.shortOrganization(u.organisation),
+                        fname = u.userName,
+                        bio = "",
+                        isAdmin = false,
+                        isDisabled = false,
+                        isSuperAdmin = false,
+                        cityName = "",
+                        countryName = "",
+                        facebookUID = "",
+                        googleUID = "",
+                        jobTitle = "",
+                        lname = "",
+                        location = "",
+                        profilePic = "",
+                        profileURL = "",
+                        role = UserRoles.User,
+                        showEmail = false,
+                        twitterUID = "",
+                        password = "",
+                        gitHubUID = ""
+                    };
+
+                    this._context.Users.Add(user);
+
+                    i++;
+                }
+            }
+
+            this._context.SaveChanges();
+
+            return i;
+        }
+
+        [HttpGet("abrelatam-organisation-users")]
+        public int MigrateUsersOrganisationsAbrelatam()
+        {
+            var rows = AbrelatamService.ImportData();
+            var organisationsQuery = rows.Where(y => y.Tipo1 == AbrelatamTypes.Organization && !String.IsNullOrEmpty(y.Mail)).GroupBy(x => x.Nombre).ToList();
+            int i = 0;
+
+            List<Users> users = new List<Users>();
+
+            foreach (var queryItem in organisationsQuery)
+            {
+                var orgItem = queryItem.First();
+                var userId = this._context.Users.Where(x => x.email == orgItem.Mail).First().id;
+                var orgName = this.shortOrganization(orgItem.Nombre);
+
+                var organisationDB = this._context.Organisations.Where(x => x.name == orgName).First();
+                organisationDB.ownerID = userId;
+
+                i++;
+            }
+
+            this._context.SaveChanges();
+
+            return i;
+        }
+
         [HttpGet("abrelatam-organisations")]
         public int MigrateOrganisationsAbrelatam()
         {
             var rows = AbrelatamService.ImportData();
-            var organisationsQuery = rows.Where(r => r.Tipo1 == AbrelatamTypes.Organization).ToList();
+            var organisationsQuery = rows.Where(r => r.Tipo1 == AbrelatamTypes.Organization).GroupBy(o => o.Nombre).ToList();
             int i = 0;
             List<Organisation> organisations = new List<Organisation>();
 
 
-            foreach (var organisation in organisationsQuery)
+            foreach (var item in organisationsQuery)
             {
+                var organisation = item.First();
                 int countryId, countryRegionId, organisationTypeID, projectsCount;
                 var country = _countryService.SearchCountry(organisation.Pais);
                 var region = _countryService.SearchRegion(organisation.Ciudad);
@@ -376,8 +461,8 @@ namespace NestaMigrations.Controllers
 
                 countryId = country != null ? country.id : 0;
                 countryRegionId = region != null ? region.id : 0;
-                //organisationTypeID = _organisationTypesService.GetOrganisationTypeIdFromName(organisation.OrgTipoOrganizacion);
-                //projectsCount = queryItem.Count();
+                organisationTypeID = _organisationTypesService.GetOrganisationTypeIdFromName(organisation.Categoria);
+                projectsCount = item.Count();
 
                 string url = organisation.Website;
                 try
@@ -397,10 +482,10 @@ namespace NestaMigrations.Controllers
                     isPublished = false,
                     isWaitingApproval = true,
                     name = organisation.Nombre.Length > 250 ? organisation.Nombre.Substring(0, 250) : organisation.Nombre,
-                    //organisationTypeID = organisationTypeID,
-                    //projectsCount = projectsCount,
+                    organisationTypeID = organisationTypeID,
+                    projectsCount = projectsCount,
                     url = url,
-                    description = "",
+                    description = organisation.Descripcion,
                     logo = "",
                     shortDescription = "",
                     headerImage = "",
@@ -487,7 +572,8 @@ namespace NestaMigrations.Controllers
                 var org = this._context.Organisations.Where(o => o.name == orgName).FirstOrDefault();
                 var pro = this._context.Projects.Where(o => o.name == opCsv.project).FirstOrDefault();
 
-                if (org == null || pro == null) {
+                if (org == null || pro == null)
+                {
                     Console.WriteLine($"Warning {orgName} {proName}");
                     continue;
                 }
@@ -514,18 +600,109 @@ namespace NestaMigrations.Controllers
             return projectsOrganisationsCount;
         }
 
+        [HttpGet("abrelatam-countries")]
+        public int MigrateCountriesAbrelatam()
+        {
+            var rows = AbrelatamService.ImportDataCities();
+            var countries = rows.Select(x => x.Pais).Distinct().ToList();
+            int i = 0;
+
+            foreach (var countryName in countries)
+            {
+                var country = this._context.Countries.Where(x => x.name == countryName).FirstOrDefault();
+                if (country == null)
+                {
+                    this._context.Countries.Add(new Country()
+                    {
+                        name = countryName
+                    });
+                }
+                else
+                {
+                    //
+                }
+
+                i++;
+            }
+
+            this._context.SaveChanges();
+
+            return i;
+        }
+
+        [HttpGet("abrelatam-country-regions")]
+        public int MigrateCountryRegionsAbrelatam()
+        {
+            var rows = AbrelatamService.ImportDataCities();
+            var regions = rows.Select(x => new { country = x.Pais, region = x.Nombre }).Distinct().ToList();
+            int i = 0;
+
+            foreach (var r in regions)
+            {
+                var country = this._context.Countries.Where(x => x.name == r.country).First();
+                var region = this._context.CountryRegions.Where(x => x.name == r.region).FirstOrDefault();
+
+                if (region == null)
+                {
+                    this._context.CountryRegions.Add(new CountryRegion()
+                    {
+                        countryID = country.id,
+                        name = r.region
+                    });
+                }
+                else
+                {
+                    region.countryID = country.id;
+                }
+
+                i++;
+            }
+
+            this._context.SaveChanges();
+
+            return i;
+        }
+
+        [HttpGet("abrelatam-organisation-tags")]
+        public int MigrateOrganisationTagsAbrelatam()
+        {
+            var rows = AbrelatamService.ImportData();
+            var organisationsQuery = rows.Where(o => o.Tipo1 == AbrelatamTypes.Organization).GroupBy(x => this.shortOrganization(this.RemoveDiacritics(x.Nombre.Trim().ToUpper()))).Distinct().ToList();
+            int i = 0;
+
+            List<Users> users = new List<Users>();
+
+            foreach (var queryItem in organisationsQuery)
+            {
+                var orgItem = queryItem.First();
+
+                var orgId = this._context.Organisations.Where(x => x.name == this.shortOrganization(orgItem.Nombre)).First().id;
+                var tags = OrganisationTags.GetImpactTagsId(orgItem.Temas).Distinct().ToList();
+                foreach (var tag in tags)
+                {
+                    this._context.OrganisationTags.Add(new OrganisationTag() { organisationId = orgId, tagId = tag });
+                }
+
+                i++;
+            }
+
+            this._context.SaveChanges();
+
+            return i;
+        }
         #endregion
 
         #region generic
         [HttpGet("update-cities")]
-        public void UpdateCities() {
+        public void UpdateCities()
+        {
 
             var regions = this._context.CountryRegions.Where(x => x.lat == 0 || x.lng == 0);
 
             foreach (var region in regions)
             {
                 var country = this._context.Countries.Where(x => x.id == region.countryID).First();
-                var url = $"http://maps.google.com/maps/api/geocode/json?address={region.name},%20{country.name}&fields=address_component";
+                var url = $"http://maps.google.com/maps/api/geocode/json?address={region.name},%20{country.name}&KEY=AIzaSyADNJOaF6I7UD2_OS5ZWqnLSIPDWuDJ44o&fields=address_component";
 
                 string locRes = Get(url);
                 dynamic obj = JsonConvert.DeserializeObject<Object>(locRes);
@@ -542,8 +719,9 @@ namespace NestaMigrations.Controllers
         }
 
 
-        public string shortOrganization(string organisation) {
-            return  organisation.Length > 250 ? organisation.Substring(0, 250) : organisation;
+        public string shortOrganization(string organisation)
+        {
+            return organisation.Length > 250 ? organisation.Substring(0, 250) : organisation;
 
         }
 
