@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -7,12 +8,13 @@ namespace NestaMigrations.Model
 {
     public class Organisation
     {
+        [Key]
+        public int id { get; set; }
         public string address { get; set; }
         public int countryID { get; set; }
         public int countryRegionID { get; set; }
         public DateTime created { get; set; }
         public string description { get; set; }
-        public int id { get; set; }
         public string importID { get; set; }
         public bool isPublished { get; set; }
         public bool isWaitingApproval { get; set; }

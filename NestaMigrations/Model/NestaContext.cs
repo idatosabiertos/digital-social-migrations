@@ -21,6 +21,7 @@ namespace NestaMigrations.Model
         public DbSet<OrganisationTag> OrganisationTags { get; set; }
         public DbSet<Project> Projects { get; set; }
         public DbSet<Users> Users { get; set; }
+        public DbSet<Translate> Translates { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -34,6 +35,8 @@ namespace NestaMigrations.Model
             modelBuilder.Entity<OrganisationProject>().ToTable("organisation-projects");
             modelBuilder.Entity<OrganisationTag>().ToTable("organisation-tags");
             modelBuilder.Entity<Users>().ToTable("users");
+            modelBuilder.Entity<Translate>().ToTable("translate");
+
         }
     }
 }

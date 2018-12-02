@@ -680,7 +680,8 @@ namespace NestaMigrations.Controllers
                 var tags = OrganisationTags.GetImpactTagsId(orgItem.Temas).Distinct().ToList();
                 foreach (var tag in tags)
                 {
-                    this._context.OrganisationTags.Add(new OrganisationTag() { organisationId = orgId, tagId = tag });
+                    if (!this._context.OrganisationTags.Where(x => x.organisationId == orgId && x.tagId == tag).Any())
+                        this._context.OrganisationTags.Add(new OrganisationTag() { organisationId = orgId, tagId = tag });
                 }
 
                 i++;
@@ -754,7 +755,95 @@ namespace NestaMigrations.Controllers
                 return reader.ReadToEnd();
             }
         }
+
+        [HttpGet("fix-regions")]
+        public int FixCountryRegions()
+        {
+            int i = 0;
+
+            var organisaciones = AbrelatamService.ImportData();
+            foreach (var item in organisaciones)
+            {
+                var pais = item.Pais;
+                var ciudad = item.Ciudad;
+
+                var orgDB = this._context.Organisations.Where(x => x.name == item.Nombre && x.countryRegionID == 0).FirstOrDefault();
+                if (orgDB != null)
+                {
+                    var cityDB = this._context.CountryRegions.Where(x => x.name == ciudad).First();
+
+                    orgDB.countryID = cityDB.countryID;
+                    orgDB.countryRegionID = cityDB.id;
+                    i++;
+                }
+
+
+
+            }
+
+
+            var organisacionesA = AltecService.ImportData();
+            foreach (var item in organisacionesA)
+            {
+                var pais = item.OrgPais;
+                var ciudad = item.OrgCiudad;
+
+                var orgDB = this._context.Organisations.Where(x => x.name == item.OrgNombreOrganizacion && x.countryRegionID == 0).FirstOrDefault();
+                if (orgDB != null)
+                {
+                    var cityDB = this._context.CountryRegions.Where(x => x.name == ciudad).First();
+
+                    orgDB.countryID = cityDB.countryID;
+                    orgDB.countryRegionID = cityDB.id;
+                    i++;
+                }
+
+
+
+            }
+
+            this._context.SaveChanges();
+
+            return i;
+        }
+
+
+
         #endregion
 
+
+        [HttpGet("translate-pt")]
+        public int TranslatePT()
+        {
+            int i = 0, u = 0, row = 1;
+            List<string> notFoundIndexList = new List<string>();
+            List<int> notFoundRowList = new List<int>();
+
+            var translates = TranslateService.ImportData();
+            foreach (var item in translates)
+            {
+                var index = item.index;
+                var pt = item.pt;
+
+                var itemToUpdate = this._context.Translates.Where(x => x.index == index).FirstOrDefault();
+                if (itemToUpdate != null)
+                {
+                    itemToUpdate.de = pt;
+                    i++;
+                }
+                else
+                {
+                    u++;
+                    notFoundIndexList.Add(index);
+                    notFoundRowList.Add(row);
+                }
+
+                row++;
+            }
+
+            this._context.SaveChanges();
+
+            return i;
+        }
     }
 }
