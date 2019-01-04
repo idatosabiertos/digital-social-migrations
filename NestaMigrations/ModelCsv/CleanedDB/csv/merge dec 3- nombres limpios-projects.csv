@@ -1,0 +1,793 @@
+ID UNICO,ID_initiative,Nombre de la Iniciativa,Nombre de la organización,ID_org,País,ID Pais,Ciudad,Ciudad ID,Latitud ,Longitud,Rango Empleados,Organization Count (per project),Proyect Count (per id)
+22,2,Centro Cívico,Codeando México,2,México,51,Guadalajara,36,20.6596988,-103.3496092,0-5 personas,1,7
+33,3,Comunaire ,Fundación Buena Nota,3,Colombia,35,Bogotá,13,4.7109886,-74.072092,0-5 personas,4,7
+44,4,Suma+E,Lojasoft Solutions ,4,Ecuador,54,Loja,54,-4.0078909,-79.2112769,0-5 personas,2,7
+55,5,Primera Unidad Latinoamericana De Periodismo De Datos,"Investigación E Innovación Factual, A.C.",5,México,51,Ciudad de México,22,19.4326077,-99.133208,6-10 personas,1,7
+66,6,Desenvolvimiento De Tecnología Verde D,Centro Universitario De Belo Horizonte,6,Brasil,57,Belo Horizonte,11,-19.9172987,-43.9345593,6-10 personas,1,7
+6612,6,Desenvolvimiento De Tecnología Verde D,Anima Educación,612,Brasil,58,Belo Horizonte,11,-19.9172987,-43.9345593,6-10 personas,1,7
+88,8,Yo Propongo,Presabis,8,Bolivia,77,La Paz,48,-16.489689,-68.1192936,0-5 personas,1,7
+99,9,"Conectando Mujeres, Conectando Oportunidades",Mkk Group,9,Bolivia,77,La Paz,48,-16.489689,-68.1192936,6-10 personas,1,1
+1010,10,Transparencia Y Desarrollo Cívico En Ecuador,Fundación Ciudadanía Y Desarrollo Fcd,10,Ecuador,54,Quito,80,-0.1806532,-78.4678382,0-5 personas,1,2
+1011,10,Transparencia Y Desarrollo Cívico En Ecuador,Datalat,11,Ecuador,54,Quito,80,-0.1806532,-78.4678382,6-10 personas,1,2
+1112,11,Política En Contexto ,Contexto,12,Costa Rica,54,San José,87,-31.8970823,-61.8598807,0-5 personas,1,1
+12543,12,Red Ciudadana De Monitoreo De La Calidad Del Aire,Universidad Industrial De Santander,543,Colombia,35,Bucaramanga,15,7.119349,-73.1227416,6-10 personas,1,1
+12544,12,Red Ciudadana De Monitoreo De La Calidad Del Aire,"Esc. De Ingeniería Eléctrica, Electrónica Y De Telecomunicaciones ",544,México,51,Ciudad de México,22,19.4326077,-99.133208,0-5 personas,2,1
+12554,12,Red Ciudadana De Monitoreo De La Calidad Del Aire,Grupo Cemos,554,México,51,Ciudad de México,22,19.4326077,-99.133208,6-10 personas,2,2
+1214,12,Red Ciudadana De Monitoreo De La Calidad Del Aire,Grupo Cidic,14,México,51,Puebla,78,19.0414398,-98.2062727,0-5 personas,1,1
+1213,12,Red Ciudadana De Monitoreo De La Calidad Del Aire,Derive Lab,13,México,51,Querétaro,79,20.5888184,-100.3898876,0-5 personas,1,1
+1315,13,Fortalecimiento Civico Y Comunitario Por Expertos Sociales ,Olmeca Soy ,15,México,51,Ciudad de México,22,19.4326077,-99.133208,0-5 personas,3,2
+1416,14,Hackeo Al Gasto Electoral En Las Elecciones Subnacionales - Perú 2018,"Proética, Capítulo Peruano De Transparency International",16,Perú,25,Lima,51,-12.0463731,-77.042754,0-5 personas,1,1
+1417,14,Hackeo Al Gasto Electoral En Las Elecciones Subnacionales - Perú 2018,Open Data Perú,17,Perú,25,Lima,51,-12.0463731,-77.042754,6-10 personas,5,1
+1518,15,Demokratio,Demokratio ,18,Chile,42,Santiago,92,-33.4488897,-70.6692655,101-500 personas,5,1
+1619,16,Hora Salud,Durán & Asociados Spa.,19,Chile,42,Santiago,92,-33.4488897,-70.6692655,0-5 personas,1,1
+1720,17,Tour Virtual De Parques Nacionales De Costa Rica,Sociedad Civil Abriendo Datos Costa Rica,20,Costa Rica,78,San José,87,-31.8970823,-61.8598807,0-5 personas,2,1
+1821,18,Desarrollo De Sistema Para Transparentar La Gestión Municipal Mijiboa ,Asociación Intermunicipal Del Valle De Jiboa Mijiboa,21,El Salvador,79,San Salvador,89,13.6929403,-89.2181911,11-25 personas,2,1
+1822,18,Desarrollo De Sistema Para Transparentar La Gestión Municipal Mijiboa ,Instituto Salvadoreño De Desarrollo Municipal,22,El Salvador,79,Verapaz ,106,13.6438499,-88.8706944,0-5 personas,1,1
+1923,19,Monitor De Metas,Núcleo Digital,23,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,6-10 personas,1,1
+2024,20,Herramientas Para El Uso Del Open Contracting Data Standard Y Combatirla Captura Del Estado Desde Sociedad Civil,Poder,24,México,51,Puebla,78,19.0414398,-98.2062727,101-500 personas,1,2
+2125,21,Plataforma Cívica Ciudadana Cochabamba,Servicios Integrales Para El Desarrollo,25,Bolivia,77,Cochabamba,23,-17.4139766,-66.1653224,6-10 personas,1,2
+2226,22,Habítala,Gobierno Fácil,26,México,51,Puebla,78,19.0414398,-98.2062727,6-10 personas,2,1
+2327,23,Participación Adolescente,Fundación Mexicana Para La Planeación Familiar A. C. (Mexfam),27,México,51,Tepic,101,21.5041651,-104.8945887,26-50 personas,2,2
+2428,24,Estação Juventude Ativa,Instituto Acuña,28,Brasil,57,João Pessoa,44,-7.1194958,-34.8450118,11-25 personas,2,2
+2526,25,Serendipia,Gobierno Fácil,26,México,51,Ciudad de México,22,19.4326077,-99.133208,6-10 personas,1,2
+2629,26,Doctor Smart,Central America Software Services,29,El Salvador,79,San Salvador,89,13.6929403,-89.2181911,0-5 personas,1,1
+2730,27,Alerta De Enchentes Na Amazônia,Repórter Brasil,30,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,6-10 personas,2,2
+2731,27,Alerta De Enchentes Na Amazônia,Infoamazonia,31,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,26-50 personas,1,4
+2820,28,Atisbando El Bus,Sociedad Civil Abriendo Datos Costa Rica,20,Costa Rica,78,San José,87,-31.8970823,-61.8598807,11-25 personas,4,4
+29614,29,Sistema De Gestão De Ideias Para Segurança Pública,Departamento De Engenharia E Gestão Do Conhecimento (Degc),614,Brasil,57,Araranguá,4,-28.9361187,-49.4923013,101-500 personas,1,1
+29615,29,Sistema De Gestão De Ideias Para Segurança Pública,"Núcleo De Estudos Em Inteligência, Gestão E Tecnologias Para Inovação (Igti)",615,Brasil,57,Araranguá,4,-28.9361187,-49.4923013,101-500 personas,1,5
+,29,Sistema De Gestão De Ideias Para Segurança Pública,Universidade Federal De Santa Catarina ,32,Brasil,57,Araranguá,4,-28.9361187,-49.4923013,101-500 personas,1,4
+,29,Sistema De Gestão De Ideias Para Segurança Pública,Centro Tecnológico (Ctc),613,Brasil,57,Araranguá,4,-28.9361187,-49.4923013,101-500 personas,1,4
+3026,30,Plataforma De Contrataciones Abiertas Mx,Gobierno Fácil,26,México,51,Monterrey,65,25.6866142,-100.3161126,101-500 personas,1,5
+3133,31,Girasol Em Rede,Cooperativa Girasol De Cosumo Solidário,33,Brasil,57,Porto Alegre,77,-30.0346471,-51.2176584,11-25 personas,1,5
+3234,32,Visualizacion De Los Resultados Del Semáforo De Eliminación De Pobreza,Fundación Paraguaya,34,Paraguay,85,Asunción,6,-25.2637399,-57.575926,6-10 personas,1,5
+3335,33,Mi Compromiso Con Bogotá,"Veeduría Distrital De Bogotá, Veeduría Delegada Para La Participación Y Los Programas Especiales",35,Colombia,35,Bogotá,13,4.7109886,-74.072092,26-50 personas,1,5
+3436,34,"Observatorio De Femicidios En Latinoamérica Basado En Datos Abiertos Enlazados Y Web Semántica (Lod4Vida, Linked Open Data Por La Vida)",Grupo De Investigación De Sistemas Basados En El Conocimiento - Universidad Técnica Particular De Loja,36,Ecuador,54,Loja,54,-4.0078909,-79.2112769,101-500 personas,1,1
+3537,35,¿Cuál Me Lleva?,Sistemas De Información Geográfica Para La Planeación Y Ordenamiento Del Territorio (Sigpot Sa De Cv),37,México,51,Ciudad de México,22,19.4326077,-99.133208,11-25 personas,1,1
+3622,36,Desarrollo De Sistema Para La Acreditación Del Derecho A La Identidad (Asemusa). ,Instituto Salvadoreño De Desarrollo Municipal (Isdem),22,El Salvador,79,San Salvador,89,13.6929403,-89.2181911,11-25 personas,1,1
+3638,36,Desarrollo De Sistema Para La Acreditación Del Derecho A La Identidad (Asemusa). ,Asociación Ecológica De Los Municipios De Santa Ana (Asemusa),38,El Salvador,79,Texistepeque,102,14.1257455,-89.4954794,0-5 personas,2,1
+3739,37,Trainee De Gesta~O Pu´Blica,Vetor Brasil,39,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,6-10 personas,2,1
+3840,38,¿Los Conoces? Mapeando El Poder,Asociación Civil Japiqay,40,Perú,25,Lima,51,-12.0463731,-77.042754,26-50 personas,,
+3841,38,¿Los Conoces? Mapeando El Poder,The Engine Room,41,Otro,90,Miami,64,25.8058563,-80.189125,26-50 personas,1,1
+3942,39,Tecnología Cívica Para Una Sociedad Conectada Y Participativa.,Fundación Corona,42,Colombia,35,Bogotá,13,4.7109886,-74.072092,0-5 personas,1,1
+3944,39,Tecnología Cívica Para Una Sociedad Conectada Y Participativa.,Movilizatorio,44,Colombia,35,Bogotá,13,4.7109886,-74.072092,0-5 personas,1,1
+3943,39,Tecnología Cívica Para Una Sociedad Conectada Y Participativa.,C230,43,México,51,Ciudad de México ,22,19.4326077,-99.133208,6-10 personas,1,1
+4045,40,Rutas De Atención Y Participación Ciudadana,Fundación Gestores Sociales,45,Colombia,35,Bogotá,13,4.7109886,-74.072092,6-10 personas,1,1
+4146,41,Usocial Maps,Usocial Maps,46,México,51,Ciudad de México,22,19.4326077,-99.133208,6-10 personas,2,1
+4249,42,Análisis De Portales De Datos Abiertos Gubernamentales ,Dirección De Gobierno Abierto Y Datos Abiertos,49,Argentina,62,Buenos Aires ,16,-34.6036844,-58.3815591,0-5 personas,2,2
+4248,42,Análisis De Portales De Datos Abiertos Gubernamentales (Segunda Carga Con La Metodología. En La Anterior Aplicación No La Llegamos A Cargar),Cainfo,48,Argentina,62,Córdoba,25,-31.4200833,-64.1887761,0-5 personas,2,1
+4247,42,Análisis De Portales De Datos Abiertos Gubernamentales (Segunda Carga Con La Metodología. En La Anterior Aplicación No La Llegamos A Cargar),Fundación Conocimiento Abierto ,47,Uruguay,55,Montevideo,66,-34.9011127,-56.1645314,6-10 personas,1,1
+4352,43,Migranet-Respaldo,Instituto De Estudios Del Trabajo -Inet-,52,Guatemala,80,Guatemala,36,14.6349149,-90.5068824,0-5 personas,3,2
+4351,43,Migranet-Respaldo,Central Del Movimiento De Trabajadores Costarricenses -Cmtc-,51,Costa Rica,78,San José,87,-31.8970823,-61.8598807,0-5 personas,2,2
+4453,44,Experimentos Tecnológicos Locales,Socialtic,53,México,51,Ciudad de México,22,19.4326077,-99.133208,0-5 personas,2,2
+4554,45,Agencia Informativa Ciudadana,Beetec Inteligencia Colectiva,54,Chile,42,Santiago,92,-33.4488897,-70.6692655,6-10 personas,3,1
+4655,46,Chapi - Poder Ciudadano,Softai,55,Argentina,62,San Salvador de Jujuy,90,-24.1857864,-65.2994767,11-25 personas,3,2
+4756,47,"Co-Creamos (Plataforma De Co-Creación Digital Junto A Escuelas, Sector Publico Y Sociedad Civil)",Faro Digital,56,Argentina,62,Buenos Aires,16,-34.6036844,-58.3815591,0-5 personas,2,2
+4857,48,Somos Dos,Ecosocial Consultores S.A.S,57,Colombia,35,Bogotá,13,4.7109886,-74.072092,0-5 personas,1,1
+4958,49,¿Es La Cárcel La Solución? Abrir El Debate Ciudadano Sobre El Sistema Penal Boliviano,Fundación Construir,58,Bolivia,77,La Paz,48,-16.489689,-68.1192936,6-10 personas,1,1
+5059,50,Rede De Colaboração De Plantio Urbano De Produtos Orgânicos,Nau Interativa,59,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,6-10 personas,4,1
+51510,51,Appacheta: Desarrollo De Un Turismo Colaborativo Que Apoye A La Mejora De Los Servicios Turísticos Basado En Recomendaciones Y Experiencias Ciudadanas ,Brújula Turística ,510,Bolivia,77,La Paz,48,-16.489689,-68.1192936,6-10 personas,4,1
+5250,52,"Herramienta Para Diseño, Gestión Y Diagnóstico De Estrategia Para Gobiernos Locales Abiertos ",Dirección De Gobierno Abierto Y Datos Abiertos De La Provincia De Buenos Aires,50,Argentina,62,Buenos Aires,16,-34.6036844,-58.3815591,0-5 personas,4,2
+5249,52,"Herramienta Para Diseño, Gestión Y Diagnóstico De Estrategia Para Gobiernos Locales Abiertos ",Dirección De Gobierno Abierto Y Datos Abiertos,49,Argentina,62,Buenos Aires ,16,-34.6036844,-58.3815591,6-10 personas,4,2
+522,52,"Herramienta Para Diseño, Gestión Y Diagnóstico De Estrategia Para Gobiernos Locales Abiertos ",Codeando México,2,México,51,Ciudad de México,22,19.4326077,-99.133208,6-10 personas,4,2
+5247,52,"Herramienta Para Diseño, Gestión Y Diagnóstico De Estrategia Para Gobiernos Locales Abiertos ",Fundación Conocimiento Abierto,47,Argentina,62,Córdoba,25,-31.4200833,-64.1887761,6-10 personas,2,2
+5360,53,Sinais Vitais,Icom - Instituto Comunitário Grande Florianópolis,60,Brasil,57,Florianópolis,34,-27.5948698,-48.5482195,11-25 personas,4,1
+5361,53,Sinais Vitais,Tekis Tecnologia Avançadas Ltda.,61,Brasil,57,Florianópolis,34,-27.5948698,-48.5482195,6-10 personas,2,1
+5462,54,Cazavampiros,Invernaideas ,62,México,51,Ciudad de México,22,19.4326077,-99.133208,6-10 personas,2,1
+5563,55,Ligando Os Pontos,Eixo Público - Consultoria Júnior,63,Brasil,57,Limeira,52,-22.5838264,-47.4097695,101-500 personas,1,3
+5664,56,Democratización De La Información Y Sostenibilidad De Los Medios,"Factus,S.A.",64,Guatemala,80,Guatemala,36,14.6349149,-90.5068824,11-25 personas,2,3
+5765,57,Reconstruyendo Confianzas Desde La Política Local  A Través De Una Estrategia De Participación Ciudadana Transparente,Espacio Público,65,Argentina,62,Buenos Aires,16,-34.6036844,-58.3815591,6-10 personas,1,3
+5766,57,Reconstruyendo Confianzas Desde La Política Local  A Través De Una Estrategia De Participación Ciudadana Transparente,Socio Público ,66,Chile,42,Santiago,92,-33.4488897,-70.6692655,6-10 personas,1,1
+5767,57,Reconstruyendo Confianzas Desde La Política Local  A Través De Una Estrategia De Participación Ciudadana Transparente,Municipalidad De Renca,67,Chile,42,Santiago,92,-33.4488897,-70.6692655,6-10 personas,1,1
+5868,58,Labtam: Plataforma De Innovación Pública Para Ciudades En Latinoamérica,Pides Innovación Social,68,México,51,Ciudad de México,22,19.4326077,-99.133208,0-5 personas,1,1
+5969,59,Desarrollo De Un Sistema De Inteligencia Artificial Para El Análisis De Oportunidades De Inversión Y Mejora En El Transporte Público Concesionado,Krieger Electronics De Mexico Sa De Cv,69,México,51,Ciudad de México,22,19.4326077,-99.133208,501-1000 personas,1,1
+6070,60,Economía Local Y Megamineria,Fundación Juventud Emprendedora,70,Chile,42,Iquique,42,-20.2307033,-70.1356692,0-5 personas,1,1
+6171,61,Plataforma Ecosol Feminista,Guayí,71,Brasil,57,Porto Alegre,77,-30.0346471,-51.2176584,51-100 personas,1,2
+6272,62,Observatorio Del Sector Social De La Economía,Instituto Nacional De La Economía Social,72,México,51,Ciudad de México,22,19.4326077,-99.133208,0-5 personas,1,2
+6373,63,Análise Da Governança De Ti Em Órgãos Públicos: Identificação Dos Índices De Alinhamento Por Órgão A Partir De Uma Plataforma Mobile ,Elleven,73,Brasil,57,João Pessoa,44,-7.1194958,-34.8450118,0-5 personas,2,1
+6474,64,"Monitoreo Y Seguimiento De Temas Medio Ambientales En El Sur De Bolivia (Chuquisaca, Tarija, Potosí Y Chaco).",Fundación Acción Cultural Loyola (Aclo),74,Bolivia,77,Sucre,99,-19.0195852,-65.2619615,6-10 personas,2,1
+6575,65,Bondiarapp,Bondiar,75,Argentina,62,Rosario ,84,-32.9442426,-60.6505388,26-50 personas,1,1
+6676,66,Celula De Capacitação Tecnológica Para Meninas E Adolescentes - Cecatec,Lar De Maria Dolores,76,Brasil,57,Río de Janeiro,82,-22.9068467,-43.1728965,26-50 personas,4,1
+6677,66,Celula De Capacitação Tecnológica Para Meninas E Adolescentes - Cecatec,Promec Projetos E Modelagens Em Engenharia E Computação Ltda,77,Brasil,57,Río de Janeiro,82,-22.9068467,-43.1728965,26-50 personas,1,1
+6778,67,Relevamiento De Asentamientos Informales En Centro América,Techo,78,México,51,Oaxaca,71,17.0542297,-96.7132304,26-50 personas,1,1
+6779,67,Relevamiento De Asentamientos Informales En Centro América,Wingu,79,Chile,42,Santiago ,92,-33.4488897,-70.6692655,51-100 personas,3,1
+6880,68,Promoviendo La Transparencia Y La Participación Ambiental En El Sector Extractivo”,"Derecho, Ambiente Y Recursos Naturales",80,Perú,25,Arequipa,5,-16.4090474,-71.537451,0-5 personas,3,1
+6981,69,Sistema De Avaliação Dos Portais De Transparência Dos Governos Municipais,Observatório Social De São José (Ossj),81,Brasil,57,São José,95,-28.21171,-49.1632,11-25 personas,3,1
+7082,70,Comoayudo.Org,Comunicación Corporativa De Centroamérica,82,Costa Rica,78,San José,87,-31.8970823,-61.8598807,11-25 personas,1,1
+7183,71,Warmi  (Mujer En Quechua) - ,Impacto Norte Srl,83,Argentina,62,San Salvador de Jujuy,90,-24.1857864,-65.2994767,0-5 personas,1,2
+7284,72,Contratados.Org,"Centro De Los Derechos Del Migrante, Inc.",84,México,51,Ciudad de México,22,19.4326077,-99.133208,6-10 personas,2,2
+7285,72,Contratados.Org,Cívica Digital,85,México,51,Guadalajara,36,20.6596988,-103.3496092,0-5 personas,1,1
+7386,73,Red Aceleradora Global,Red Aceleradora Global,86,Chile,42,Santiago,92,-33.4488897,-70.6692655,6-10 personas,1,1
+7487,74,Plataforma Cívica Para La Participación Indígena Mediante Derecho Al Acceso A La Información. ,Servicios Universitarios Y Redes De Conocimiento En Oaxaca A C,87,México,51,Ciudad de México,22,19.4326077,-99.133208,26-50 personas,1,1
+7588,75,Concive Y Tecnologia Civica,Consejo Civico De Vecinos,88,Guatemala,80,Antigua Guatemala,3,14.5586,90.7295,0-5 personas,1,1
+7689,76,Portales Para El Ciudadano,Blackbox Solutions Y Copropiedad,89,Guatemala,80,Guatemala,36,14.6349149,-90.5068824,6-10 personas,1,1
+7790,77,Tecnología Cívica Para Mejorar La Movilidad De Manera Participativa,World Resources Institute México,90,México,51,Ciudad de México,22,19.4326077,-99.133208,0-5 personas,2,1
+772,77,Tecnología Cívica Para Mejorar La Movilidad De Manera Participativa,Codeando México,2,México,51,Guadalajara,36,20.6596988,-103.3496092,0-5 personas,1,1
+7891,78,Política Na Prática,Politize,91,Brasil,57,Joinville,45,-26.2834213,-48.8452269,6-10 personas,2,1
+7892,78,Política Na Prática,Civitatis Consultoria E Assessoria Educacional Ltda,92,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,11-25 personas,2,1
+794,79,Genus++: Plataforma De Comunicación Académica Plus,Lojasoft Solutions ,4,Ecuador,54,Loja,54,-4.0078909,-79.2112769,11-25 personas,2,1
+8093,80,A Qué Precio: Un Observatorio De Compras Públicas,Chequeado,93,Argentina,62,Buenos Aires,16,-34.6036844,-58.3815591,6-10 personas,2,1
+8095,80,A Qué Precio: Un Observatorio De Compras Públicas,Diario La Nación,95,Argentina,62,Buenos Aires,16,-34.6036844,-58.3815591,26-50 personas,2,6
+8094,80,A Qué Precio: Un Observatorio De Compras Públicas,ACIJ,94,Argentina,62,Vicente López,107,-34.5281205,-58.473816,6-10 personas,2,6
+8196,81,Hackeando La Corrupción Con Voz Ciudadana,Corporación Transparencia Por Colombia,96,Colombia,35,Bogotá,13,4.7109886,-74.072092,11-25 personas,2,6
+8197,81,Hackeando La Corrupción Con Voz Ciudadana,Random Monkey,97,Colombia,35,Bogotá,13,4.7109886,-74.072092,0-5 personas,3,6
+8298,82,Vojo Brasil - Conectando Comunidades Afros Do Brasil,Instituto Mídia Étnica,98,Brasil,57,Salvador,85,-12.977749,-38.5016301,0-5 personas,2,6
+8399,83,Mapas Coletivos,Instituto Sincronicidade Para A Interação Social (Ispis),99,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,0-5 personas,3,6
+83100,83,Mapas Coletivos,Mapas Coletivos,100,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,0-5 personas,1,6
+84101,84,Plataforma De Bicicletas Públicas Y Compartidas De América Latina,Asociación Transporte Ativo,101,Brasil,57,Río de Janeiro,82,-22.9068467,-43.1728965,26-50 personas,1,1
+85103,85,Observatorio Centroamericano De Datos Abiertos,Instituto Panameño De Derecho Y Nuevas Tecnologías,103,Panamá,84,Panamá,73,8.9823792,-79.5198696,0-5 personas,1,1
+85102,85,Observatorio Centroamericano De Datos Abiertos,Datoselsalvador,102,El Salvador,79,San Salvador,89,13.6929403,-89.2181911,26-50 personas,1,1
+86104,86,Información Y Gestión De Conocimientos De Políticas Publicas Con Enfoque De Genero ,Centro De Promoción De La Mujer Gregoria Apaza- Cpmga,104,Bolivia,77,El Alto,33,-16.5000936,-68.2146857,11-25 personas,1,1
+86105,86,Información Y Gestión De Conocimientos De Políticas Publicas Con Enfoque De Genero ,Servicios E Información Para El Desarrollo Económico Local-Sidel,105,Bolivia,77,La Paz,48,-16.489689,-68.1192936,6-10 personas,2,1
+8779,87,Datarepública: Tecnología Y Datos Para El Desarrollo Sostenible En América Latina,Wingu,79,Colombia,35,Bogotá,13,4.7109886,-74.072092,6-10 personas,2,3
+87106,87,Datarepública: Tecnología Y Datos Para El Desarrollo Sostenible En América Latina,Centro De Pensamiento Estratégico Internacional - Cepei,106,Argentina,62,Buenos Aires,16,-34.6036844,-58.3815591,11-25 personas,2,3
+88107,88,Kiik. Plataforma Digital Para La Donación Altruista De Sangre. ,"Servicios De Ideas Creativas Para El Desarrollo De Organizaciones, A.C.",107,México,51,Ciudad de México,22,19.4326077,-99.133208,11-25 personas,1,3
+89108,89,Comunidas 2.0,Grupo Faro,108,Argentina,62,Buenos Aires,16,-34.6036844,-58.3815591,6-10 personas,1,1
+89110,89,Comunidas 2.0,Jóvenes Contra La Violencia/Centroamérica,110,Guatemala,80,Guatemala,36,14.6349149,-90.5068824,26-50 personas,1,1
+89109,89,Comunidas 2.0,Red Argentina Para La Cooperacio´N Internacional (Raci),109,Panamá,84,Panamá,73,8.9823792,-79.5198696,0-5 personas,1,1
+9042,90,"Ciudatos, Te Acerca A Tu Ciudad",Fundación Corona,42,Colombia,35,Bogotá,13,4.7109886,-74.072092,11-25 personas,1,1
+9097,90,"Ciudatos, Te Acerca A Tu Ciudad",Random Monkey,97,Colombia,35,Bogotá,13,4.7109886,-74.072092,101-500 personas,2,1
+91111,91,Gestión Del Arbolado Urbano,O Instituto Ambiental,111,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,0-5 personas,2,1
+92112,92,Cidades Transparentes: Inovações A Partir De Dados Abertos,Agenda Pública - Agência De Análise E Cooperação Em Políticas Públicas,112,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,0-5 personas,2,1
+92113,92,Cidades Transparentes: Inovações A Partir De Dados Abertos,Núcleo De Informação E Coordenação Do Ponto Br - Nic.Br,113,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,6-10 personas,3,4
+93114,93,Buscador De Becas Online ,Fundación Por Una Carrera,114,Chile,42,Santiago,92,-33.4488897,-70.6692655,> 1000 personas,1,4
+94115,94,Protrash,Protrash,115,México,51,Ciudad de México,22,19.4326077,-99.133208,0-5 personas,1,4
+9569,95,Identidad Digital A Través De Blockchain Para La Reducción De Falsificación Y Corrupción,Krieger Electronics De Mexico Sa De Cv,69,México,51,Ciudad de México,22,19.4326077,-99.133208,6-10 personas,2,4
+95116,95,Identidad Digital A Través De Blockchain Para La Reducción De Falsificación Y Corrupción,Consejería Jurídica Y De Servicios Legales De La Cdmx,116,México,51,Monterrey,65,25.6866142,-100.3161126,0-5 personas,3,2
+96117,96,"Red Peruana Por Ciudades Justas, Democráticas Y Sustentables",Trujillo Ahora,117,Perú,25,Lima,51,-12.0463731,-77.042754,26-50 personas,2,2
+96119,96,"Red Peruana Por Ciudades Justas, Democráticas Y Sustentables",Lima Cómo Vamos,119,Perú,25,Lima,51,-12.0463731,-77.042754,11-25 personas,1,4
+96120,96,"Red Peruana Por Ciudades Justas, Democráticas Y Sustentables",Detona,120,Perú,25,Lima,51,-12.0463731,-77.042754,0-5 personas,4,4
+96118,96,"Red Peruana Por Ciudades Justas, Democráticas Y Sustentables","Arequipa, Te Queremos",118,Perú,25,Trujillo,103,-8.1090524,-79.0215336,0-5 personas,3,4
+9779,97,Cdlv: El Monitor De Los Procesos De Urbanización De Villas,Wingu,79,Argentina,62,Buenos Aires,16,-34.6036844,-58.3815591,11-25 personas,1,4
+9794,97,Cdlv: El Monitor De Los Procesos De Urbanización De Villas,ACIJ,94,Argentina,62,Buenos Aires,16,-34.6036844,-58.3815591,11-25 personas,2,1
+98123,98,Construyamos Transparencia. Diálogo Y Monitoreo Comunitario De Proyectos De Infraestructura,Moodstudio,123,Argentina,62,Buenos Aires,16,-34.6036844,-58.3815591,11-25 personas,1,1
+98121,98,Construyamos Transparencia. Diálogo Y Monitoreo Comunitario De Proyectos De Infraestructura,Fundación Para El Desarrollo De Políticas Sustentables (Fundeps),121,Argentina,62,Córdoba,25,-31.4200833,-64.1887761,0-5 personas,2,2
+98122,98,Construyamos Transparencia. Diálogo Y Monitoreo Comunitario De Proyectos De Infraestructura,Fundación Ambiente Y Recursos Naturales (Farn),122,Argentina,62,Córdoba,25,-31.4200833,-64.1887761,0-5 personas,2,2
+99124,99,Compras Públicas Transparentes,Centro De Desarrollo Sostenible,124,Paraguay,85,Asunción,6,-25.2637399,-57.575926,11-25 personas,1,1
+100125,100,Plataforma De Participación Y Seguridad Ciudadana,V-Smart S.A.,125,Argentina,62,Córdoba,25,-31.4200833,-64.1887761,51-100 personas,2,1
+101126,101,Fresconsciente,Plataforma Nuup Ac,126,México,51,Ciudad de México,22,19.4326077,-99.133208,0-5 personas,2,1
+102127,102,Plataforma De Vigilancia Ciudadana,"Centro De Estudios Para La Equidad Y Gobernanza En Los Sistemas De Salud, Cegss",127,Guatemala,80,Guatemala,36,14.6349149,-90.5068824,101-500 personas,1,1
+103128,103,Río Abierto,La Diaria,128,Uruguay,55,Montevideo,66,-34.9011127,-56.1645314,11-25 personas,2,1
+104129,104,Avaliação Da Qualidade Da Merenda Escolar,Emude Tecnologia Em Cidades,129,Brasil,57,Río de Janeiro,82,-22.9068467,-43.1728965,51-100 personas,2,1
+105130,105,Seguridad Maritima Integral En El Transporte Turistico De Pasajero En El Mulle  De La Bodeguita ,Zeus Tecnologica S.A,130,Colombia,35,Cartagena ,21,10.3910485,-75.4794257,11-25 personas,2,1
+106131,106,Plataforma Para Participación Ciudadana De Vecinos ,"Fundación Hogares, Iap ",131,México,51,Ciudad de México,22,19.4326077,-99.133208,101-500 personas,2,1
+10685,106,Plataforma Para Participación Ciudadana De Vecinos ,Cívica Digital,85,México,51,Monterrey,65,25.6866142,-100.3161126,0-5 personas,2,1
+10778,107,Midiendo Los Niveles De Integración Sociourbana De Asentamientos Informales En Argentina,Techo,78,Argentina,62,Buenos Aires,16,-34.6036844,-58.3815591,6-10 personas,1,1
+107132,107,Midiendo Los Niveles De Integración Sociourbana De Asentamientos Informales En Argentina,Manas Technology Solutions,132,Argentina,62,Vicente Lopez,107,-34.5281205,-58.473816,6-10 personas,3,1
+108133,108,Revista Digital Plan V,"Sociedad De Hecho ""La Pesetera""",133,Ecuador,54,Quito,80,-0.1806532,-78.4678382,11-25 personas,3,1
+109134,109,Prosas: Plataforma Para Seleção E Monitoramento De Projetos Sociais,Prosas Tecnologia Social Ltda,134,Brasil,57,Belo Horizonte,11,-19.9172987,-43.9345593,6-10 personas,3,2
+110135,110,"La Tecnologia, Un Reto Para El Avance Técnico Y Político De Las Funcionarias Municipales.",Asociación Colectiva Para La Defensa De Los Derechos De Las Mujeres En Guatemala ,135,Guatemala,80,Guatemala,36,14.6349149,-90.5068824,6-10 personas,1,2
+111136,111,Mapa Da Segurança E Transparência,Fórum Brasileiro De Segurança Pública,136,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,0-5 personas,1,1
+112137,112,Denunciapp Gt,Movimiento Cívico Nacional,137,Guatemala,80,Guatemala,36,14.6349149,-90.5068824,51-100 personas,2,1
+113138,113,Plp 2.0 - Tecnología Social En El Enfrentamiento A La Violencia Contra Las Mujeres,"Themis Gênero, Justiça E Direitos Humanos",138,Brasil,57,Porto Alegre,77,-30.0346471,-51.2176584,6-10 personas,2,1
+113139,113,Plp 2.0 - Tecnología Social En El Enfrentamiento A La Violencia Contra Las Mujeres,Conceptu Protótipos E Sistemas,139,Brasil,57,Porto Alegre,77,-30.0346471,-51.2176584,11-25 personas,1,1
+114140,114,"Iniciativa De Innovación Tecnológica Para La Participación Ciudadana En El Monitoreo, Fiscalización E Incidencia En El Congreso Nacional","Participación Ciudadana, Capitulo Dominicano Transparencia Internacional",140,República Dominicana,89,Santo Domingo,94,18.4860575,-70.017052,26-50 personas,1,1
+115142,115,Sistema De Alerta Inmediata Para Protección A Mujeres En Riesgo De Agresión Violenta,Inkco Sas,142,Colombia,35,Bogotá,13,4.7109886,-74.072092,11-25 personas,4,1
+115141,115,Sistema De Alerta Inmediata Para Protección A Mujeres En Riesgo De Agresión Violenta,Comite Para La Democratización De La Informatica. Cdi Colombia,141,Colombia,35,Bucaramanga,15,7.119349,-73.1227416,0-5 personas,2,1
+116143,116,"Medios De Periodismo Ciudadano, Independientes, Participativos, Transparentes, De Alta Escalabilidad E Impacto Social",Asesorías E Inversiones Comunidades Ciudadanas S.A.,143,Chile,42,Santiago,92,-33.4488897,-70.6692655,0-5 personas,4,1
+117144,117,Observatório Do Plano Nacional De Educação (Opne),Todos Pela Educação,144,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,26-50 personas,4,2
+118145,118,Certificaciones De Sostenibilidad Para Empresas Y Consumidores ,Fundación Consuma Conciencia,145,Chile,42,Santiago,92,-33.4488897,-70.6692655,11-25 personas,3,2
+119147,119,"Sumá - Sistema De Qualificação De Gestores, Operadores E Fornecedores Da Alimentação Institucional",Instituto Stela,147,Brasil,57,Balneário Camboriu,7,-27.0015756,-48.637905,6-10 personas,3,2
+119146,119,"Sumá - Sistema De Qualificação De Gestores, Operadores E Fornecedores Da Alimentação Institucional",Sumá,146,Brasil,57,Florianópolis,34,-27.5948698,-48.5482195,6-10 personas,4,2
+120148,120,Plataforma Ciudadana De Seguridad Vial Para La Ciudad De México,Instituto De Políticas Para El Transporte Y El Desarrollo (Itdp),148,México,51,Cancún,19,21.161908,-86.8515279,101-500 personas,3,1
+121149,121,Compras Públicas ,Observatorio Del Gasto Fiscal - Via Fundación Contexto Ciudadano,149,Chile,42,Santiago,92,-33.4488897,-70.6692655,11-25 personas,3,1
+121150,121,Compras Públicas ,"Universidad De Chile, Facultad De Ciencias Físicas Y Matemáticas, Departamento De Ingeniería Industrial, Centro De Investigación En Inteligencia De Negocios (Ceine)",150,Chile,42,Santiago ,92,-33.4488897,-70.6692655,0-5 personas,3,1
+121151,121,Compras Públicas ,"Universidad De Santiago De Chile, Facultad De Administración Y Economía",151,Chile,42,Santiago ,92,-33.4488897,-70.6692655,26-50 personas,1,1
+122152,122,Plataforma De Visualización De Plan De Metas De Nuevo León,"Consejo Cívico De Instituciones De Nuevo León, A.C.",152,México,51,Cancún,19,21.161908,-86.8515279,6-10 personas,1,1
+123154,123,Periferia Na Palma Da Mão - Conectando Conhecimentos Para Transformar,Rede Conhecimento Social,154,Brasil,57,Fortaleza,35,-3.7327144,-38.5269981,0-5 personas,1,1
+123153,123,Periferia Na Palma Da Mão - Conectando Conhecimentos Para Transformar,Instituto  Banco Da Periferia,153,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,0-5 personas,1,1
+124155,124,"Tannder, Educación Virtual Al Alcance De Todos",Tannder Corp,155,Perú,25,Lima,51,-12.0463731,-77.042754,0-5 personas,1,1
+125156,125,Reporta Ciudad,Red Ciudadana Nuestra Córdoba – Asociación Civil Nuestra Córdoba,156,Uruguay,55,Montevideo,66,-34.9011127,-56.1645314,6-10 personas,1,1
+125157,125,Reporta Ciudad,Data Uruguay,157,Uruguay,55,Montevideo,66,-34.9011127,-56.1645314,0-5 personas,1,1
+126159,126,Projeto Felícia - Aplicativos Catatudo,Areta Valente Guimarães Mei,159,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,6-10 personas,2,1
+126158,126,Projeto Felícia - Aplicativos Catatudo,Panapana Informacao E Educacao Ltda ­ Me ,158,Brasil,57,Tatuí,100,-23.3492186,-47.8465761,51-100 personas,2,1
+127161,127,Plataforma Digital De Empoderamento De Favelas Pela Informação E Auto-Organização,Mega Cities,161,Otro,90,"Denver, CO",29,39.744653,-104.991784,0-5 personas,1,1
+127160,127,Plataforma Digital De Empoderamento De Favelas Pela Informação E Auto-Organização,Instituto Atlântico,160,Brasil,57,Río de Janeiro,82,-22.9068467,-43.1728965,26-50 personas,1,1
+128162,128,Promesas Verdes,Sociedad Peruana De Derecho Ambiental,162,Perú,25,Lima,51,-12.0463731,-77.042754,0-5 personas,1,1
+12923,129,Pinghacker,Nucleo Digital,23,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,11-25 personas,1,1
+130163,130,Transparencia En Publicidad Oficial,"Fundar, Centro De Análisis E Investigación",163,México,51,Ciudad de México,22,19.4326077,-99.133208,0-5 personas,1,1
+131164,131,Tem Açúcar? (Tienes Azúcar?),Carla Barbedo Zorzanelli ,164,Brasil,57,Río de Janeiro,82,-22.9068467,-43.1728965,11-25 personas,2,1
+132165,132,Plataforma Digital De Participación Y Fiscalización Ciudadana De Las Personas Jóvenes Rurales De Cartago,Cooperativa Sulá Batsú,165,Costa Rica,78,San José,87,-31.8970823,-61.8598807,11-25 personas,2,1
+133166,133,Concejo Abierto,Fundapi,166,Ecuador,54,Guayaquil,37,-2.1709979,-79.9223592,0-5 personas,1,1
+134167,134,Cresta App,Asociación Chilena De Protección De La Familia - Aprofa,167,Chile,42,Santiago,92,-33.4488897,-70.6692655,0-5 personas,2,1
+135168,135,Plataforma De Seguimiento De La Gestión Forestal Comunitaria Uso Múltiple Uso Sostenible De Unidades De Conservación En La Amazonía Brasiliera,Instituto Floresta Tropical ,168,Brasil,57,Belém ,10,-1.4557292,-48.4901785,0-5 personas,2,1
+136169,136,Thot Group,Thot Group,169,Colombia,35,Medellín,62,6.244203,-75.5812119,11-25 personas,1,1
+137170,137,Minga - Manejo Colectivo De Residuos,Manejo Inteligente De Residuos Y Gestión Ambiental Minga,170,Colombia,35,Bogotá,13,4.7109886,-74.072092,0-5 personas,1,1
+138171,138,Plataforma Para La Evaluación Y Monitoreo De Calidad En La Atención En Instituciones Públicas,Centro De Participación Y Ciudadanía - Ciudadanos Al Día,171,Perú,25,Lima,51,-12.0463731,-77.042754,6-10 personas,1,1
+139173,139,Contratobook: Plataforma De Auditoria Ciudadana,Spaceshipslabs,173,México,51,Ciudad de México,22,19.4326077,-99.133208,51-100 personas,2,1
+139172,139,Contratobook: Plataforma De Auditoria Ciudadana,Ciudadan@S Por La Transparencia A.C,172,México,51,Guadalajara,36,20.6596988,-103.3496092,0-5 personas,2,1
+140174,140,Paz En Construcción,Fundación Mi Sangre,174,Colombia,35,Bogotá,13,4.7109886,-74.072092,0-5 personas,3,1
+14044,140,Paz En Construcción,Movilizatorio,44,Colombia,35,Medellín,62,6.244203,-75.5812119,6-10 personas,1,1
+141175,141,Pedidos De Informação Pública Anônimos,Open Knowledge Brasil,175,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,11-25 personas,2,1
+141175,141,Pedidos De Informação Pública Anônimos,Open Knowledge Brasil,175,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,6-10 personas,2,1
+142176,142,Observatório Do Poder Legislativo (Opl),Phronesis Pesquisa E Consultoria Em Ciencias Sociais Ltd,176,Brasil,57,Río de Janeiro,82,-22.9068467,-43.1728965,11-25 personas,3,1
+143177,143,Información Y Datos Para Combatir La Violencia Contra La Mujer En Brasil,Artigo 19 Brasil,177,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,0-5 personas,3,3
+14441,144,Iniciativa Pescando Datos,The Engine Room,41,Otro,90,"Cambridge, MA",17,42.3736158,-71.1097335,6-10 personas,2,3
+144178,144,Iniciativa Pescando Datos,Causa Natura,178,México,51,Ciudad de México,22,19.4326077,-99.133208,0-5 personas,2,3
+145179,145,Creación De Repositorios Institucionales En Las Universidades Públicas Venezolanas Para Democratizar El Acceso A La Información,"Asociación Nacional De Directores De Bibliotecas, Redes Y Servicios De Información Del Sector Académico, Universitario Y De Investigación (Anabisai)",179,Venezuela,87,Caracas,20,10.4805937,-66.9036063,0-5 personas,1,1
+146180,146,Plataforma Iab-Sp,Instituto De Arquitetos Do Brasil - Departamento De São Paulo (Iab-Sp),180,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,51-100 personas,2,1
+146181,146,Plataforma Iab-Sp,Hacklab,181,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,6-10 personas,2,2
+147182,147,Células Solares A Partir De Compostos Reutilizados De Pilhas Não Alcalinas,Centro Universitário De Belo Horizonte,182,Brasil,57,Belo Horizonte,11,-19.9172987,-43.9345593,0-5 personas,7,2
+148183,148,Cidades Em Dados - Transparência E Controle Social,World Resources Institute Brasil - Wri Brasil,183,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,6-10 personas,1,1
+148184,148,Cidades Em Dados - Transparência E Controle Social,Eokoe Soluções Tecnológicas ,184,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,11-25 personas,2,1
+149185,149,Citiviva - Ciudadanía Inteligente,Plataforma Ciudadana Inteligente,185,Panamá,84,Panamá,73,8.9823792,-79.5198696,101-500 personas,2,8
+149186,149,Citiviva - Ciudadanía Inteligente,Cleteci S.A,186,Otro,90,Wellington,111,-41.2864603,174.776236,0-5 personas,1,8
+150149,150,Gasto Amigable Municipal,Observatorio Del Gasto Fiscal - Vía Fundación Contexto Ciudadano,149,Chile,42,Santiago,92,-33.4488897,-70.6692655,0-5 personas,1,8
+150151,150,Gasto Amigable Municipal,"Universidad De Santiago De Chile, Facultad De Administración Y Economía",151,Chile,42,Santiago,92,-33.4488897,-70.6692655,0-5 personas,1,8
+151187,151,Tres Cocos: Análisis Digital Del Realismo Mágico.,Fundación Tres Cocos,187,Colombia,35,Sincelejo,98,9.3045773,-75.3905567,0-5 personas,1,8
+152188,152,Nuestro Desarrollo,Policéntrico,188,Colombia,35,Bogotá,13,4.7109886,-74.072092,101-500 personas,2,8
+153189,153,Experimento Social: Overhaul De La Democracia A Través De La Tecnología ,Asociación Centro Ciudadano De Estudios Para Una Sociedad Abierta -Accesa ,189,Costa Rica,78,San José,87,-31.8970823,-61.8598807,0-5 personas,2,8
+154190,154,Economía Del Bien Común,Asociación Nacional Para El Fomento De La Economia Del Bien Común En Chile,190,Chile,42,Santiago,92,-33.4488897,-70.6692655,0-5 personas,1,8
+155191,155,Conectados : Tecnología Cívica Para El Acceso De Los Servicios De Salud Y Ejercicio De Los Derechos Sexuales Y Derechos Reproductivos De Adolescentes Y Jóvenes ,Inppares - Instituto Peruano De Paternidad Responsables ,191,Perú,25,Lima,51,-12.0463731,-77.042754,11-25 personas,2,1
+156189,156,Innovación Cívica: Plataforma Tecnológica De Gestión De Servicios Públicos Para El Gobierno Local ,Asociación Centro Ciudadano De Estudios Para Una Sociedad Abierta -Accesa ,189,Costa Rica,78,San José,87,-31.8970823,-61.8598807,0-5 personas,2,1
+157192,157,Rede Cordial,Instituto Cordial,192,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,6-10 personas,2,1
+158193,158,Plataforma Carazo Sostenible,Fundación Nicaragüense Para La Defensa Del Medio Ambiente Y Protección De Los Recursos Naturales (Fundenatura),193,Nicaragua,83,Managua,58,12.1149926,-86.2361744,0-5 personas,2,1
+158194,158,Plataforma Carazo Sostenible,Core Systems,194,Nicaragua,83,Managua,58,12.1149926,-86.2361744,11-25 personas,1,1
+159195,159,Avisora,Avisora,195,México,51,Ciudad de México,22,19.4326077,-99.133208,0-5 personas,1,1
+160196,160,Ciudadano App,Movimiento Nacional Por La Integridad,196,Guatemala,80,Guatemala,36,14.6349149,-90.5068824,11-25 personas,1,1
+161197,161,Asociación De Estudiantes De Escuela De Gobierno,Ae Edg,197,Guatemala,80,Guatemala ,36,14.6349149,-90.5068824,0-5 personas,1,1
+162198,162,"Sistema De Votación De Votación Electrónica, Autenticada Por Firma Digital",Solvo,198,Costa Rica,78,Heredia,38,9.9981413,-84.1197643,11-25 personas,1,3
+163199,163,Estamos Córdoba: Aplicaciones Para Una Administración Relacional,Asociación Civil Para La Construcción De Un Gobierno Abierto,199,Argentina,62,Córdoba,25,-31.4200833,-64.1887761,0-5 personas,4,3
+164200,164,Buscándonos,"Este País, A.C.",200,México,51,Ciudad de México,22,19.4326077,-99.133208,11-25 personas,1,3
+164201,164,Buscándonos,Animal S. De R.L. De C.V,201,México,51,Ciudad de México,22,19.4326077,-99.133208,11-25 personas,1,1
+165202,165,"Siga - Sistema De Indicadores, Informações Georeferenciadas E Ambientais Do Litoral Norte Do Estado Do São Paulo",Instituto Ilhabela Sustentável - Iis,202,Brasil,57,Ilhabela,40,-23.8158392,-45.3664809,11-25 personas,1,1
+166203,166,Tapamihueco,Camaleon Multimedia Sas,203,Colombia,35,Bogotá,13,4.7109886,-74.072092,6-10 personas,1,1
+167204,167,Socialab Pia: Plataforma De Innovación Abierta,Socialab Global,204,Chile,42,Santiago,92,-33.4488897,-70.6692655,0-5 personas,1,1
+168205,168,"Tu Dinero, Tu Gobierno",Centro De Investigación Económica Y Presupuestaria A.C.,205,México,51,Ciudad de México,22,19.4326077,-99.133208,0-5 personas,1,1
+168206,168,"Tu Dinero, Tu Gobierno","Simetría, Centro De Innovación En Políticas Públicas A.C.",206,México,51,Ciudad de México,22,19.4326077,-99.133208,0-5 personas,1,1
+169207,169,Todos Por Um (Tp1),Associação Todos Por Um (Tp1),207,Brasil,57,Londrina,55,-23.3044524,-51.1695824,6-10 personas,2,1
+169208,169,Todos Por Um (Tp1),Mz Tecnologia ,208,Brasil,57,Londrina,55,-23.3044524,-51.1695824,6-10 personas,2,1
+169209,169,Todos Por Um (Tp1),Geleia .Mob,209,Brasil,57,Londrina,55,-23.3044524,-51.1695824,0-5 personas,2,1
+170211,170,Belisar.Io,Rokode Digital,211,México,51,Ciudad de México,22,19.4326077,-99.133208,6-10 personas,3,1
+170212,170,Belisar.Io,War Contenidos  ,212,México,51,Ciudad de México,22,19.4326077,-99.133208,0-5 personas,1,6
+170210,170,Belisar.Io,Hormiga Investigación,210,México,51,Ciudad de México ,22,19.4326077,-99.133208,6-10 personas,2,6
+17062,170,Belisar.Io,Invernaideas,62,México,51,Puebla,78,19.0414398,-98.2062727,6-10 personas,2,6
+171213,171,Empurrando Juntos,Instituto Cidade Democra´Tica,213,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,101-500 personas,1,6
+172214,172,Acercamiento De La Comunidad Mas Vulnerable Del Municipio De Molagavita (Santander – Colombia),Corporación Cobeii,214,Colombia,35,Bucaramanga,15,7.119349,-73.1227416,11-25 personas,1,6
+17326,173,Análisis De Campaña Para Candidatos Independientes,Gobierno Fácil,26,México,51,Oaxaca,71,17.0542297,-96.7132304,0-5 personas,1,6
+174215,174,Desarrollos Territoriales Rurales Municipales Auto Sostenibles,"Municipalidad San José Del Ídolo Suchitepéquez, Guatemala",215,Guatemala,80,Guatemala,36,14.6349149,-90.5068824,6-10 personas,1,1
+175216,175,Plataforma Local De Combate A La Corrupción Y Participación Ciudadana ,Borde Político A.C.,216,México,51,Ciudad de México,22,19.4326077,-99.133208,6-10 personas,1,1
+176217,176,Laboratorio Para La Acción Pública - Appta,Laboratorio Para La Acción Pública,217,Colombia,35,Bogotá,13,4.7109886,-74.072092,0-5 personas,2,1
+177218,177,Cityflag ,Cityflag Sapi De Cv,218,México,51,Ciudad de México,22,19.4326077,-99.133208,6-10 personas,1,1
+178219,178,Comunidad Indígena Por La Participación Ciudadana En Oaxaca,"Centro Profesional Indígena De Asesoría, Defensa Y Traducción A.C.",219,México,51,Ciudad de México,22,19.4326077,-99.133208,0-5 personas,2,1
+179220,179,Transparência Nas Licitações,Transparência Brasil,220,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,0-5 personas,2,1
+180175,180,Libre,Open Knowledge Foundation Brasil,175,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,11-25 personas,4,1
+180184,180,Libre,Eokoe Soluções Tecnológicas ,184,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,11-25 personas,1,1
+180221,180,Libre,Fluxo,221,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,0-5 personas,2,1
+181216,181,Plataforma Digital De Participación Ciudadana En Congresos Locales,Borde Político A.C.,216,México,51,Ciudad de México,22,19.4326077,-99.133208,11-25 personas,2,4
+182222,182,Proposta Metodológica Para A Interpretação Automatizada Geoespacial Da Questão Do Urbano E Rural No Brasil,Fgx,222,Brasil,57,Florianópolis,34,-27.5948698,-48.5482195,0-5 personas,3,4
+183223,183,Entre Vecinos,Fundación Democracia Y Desarrollo,223,Chile,42,Santiago,92,-33.4488897,-70.6692655,6-10 personas,4,4
+184224,184,"Plataforma Digital Do Livro ""Aos Trancos E Barrancos: Como O Brasil Deu No Que Deu"", De Darcy Ribeiro",Fundação Darcy Ribeiro,224,Brasil,57,Río de Janeiro,82,-22.9068467,-43.1728965,6-10 personas,11,1
+185225,185,Ferramenta De Avaliação De Mandatos Parlamentares (Famp),Avesso Sustentabilidade,225,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,0-5 personas,1,4
+186226,186,Observatorio Ciudadano De Ecosistemas Urbanos,Kodevian Enterprise Software Solutions,226,Perú,25,Lima,51,-12.0463731,-77.042754,26-50 personas,2,1
+186227,186,Observatorio Ciudadano De Ecosistemas Urbanos,Centro Peruano Para La Resiliencia De Socioecosistemas Urbanos - Centro Urbes,227,Perú,25,Lima,51,-12.0463731,-77.042754,6-10 personas,2,1
+187228,187,Red Colaborativa Para El Desarrollo De La Economía Social,Incotedes,228,Argentina,62,San Salvador de Jujuy,90,-24.1857864,-65.2994767,6-10 personas,1,1
+187229,187,Red Colaborativa Para El Desarrollo De La Economía Social,Ariel Cabezas,229,Argentina,62,San Salvador de Jujuy,90,-24.1857864,-65.2994767,101-500 personas,1,2
+188230,188,Agromas ,"Corporación Integral De Innovación Social ""Innovar""",230,Colombia,35,Cúcuta,26,7.8890971,-72.4966896,6-10 personas,2,2
+189231,189,Veias Abertas – Dados Sobre Conflitos Socioambientais ,Instituto Socioambiental,231,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,11-25 personas,1,2
+190184,190,"Sagui: Sistema De Escucha, Monitoreo Y Alerta Sobre Riesgos Y Impactos De Grandes Emprendimientos En Los Derechos De Las Comunidades Locales",Eokoe Soluções Tecnológicas ,184,Brasil,57,Recife,81,-8.0522404,-34.9286096,51-100 personas,1,2
+190232,190,"Sagui: Sistema De Escucha, Monitoreo Y Alerta Sobre Riesgos Y Impactos De Grandes Emprendimientos En Los Derechos De Las Comunidades Locales",Fgv.Gdhee - Grupo De Pesquisa Aplicada Em Direitos Humanos E Empresas Da Fundação Getulio Vargas,232,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,0-5 personas,1,1
+190233,190,"Sagui: Sistema De Escucha, Monitoreo Y Alerta Sobre Riesgos Y Impactos De Grandes Emprendimientos En Los Derechos De Las Comunidades Locales",Associação Fórum Suapoe Espaço Socioambiental ,233,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,6-10 personas,1,1
+190234,190,"Sagui: Sistema De Escucha, Monitoreo Y Alerta Sobre Riesgos Y Impactos De Grandes Emprendimientos En Los Derechos De Las Comunidades Locales",Fgv.Ceapg - Centro De Estudos Em Administração Pública E Governo Da Escola De Administração De Empresas Da Fundação Getulio Vargas ,234,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,0-5 personas,1,1
+191235,191,Plataforma De Pequeños Constructores Para Infraestructura Y Bienes Públicos,Constructora Proyecto Propio,235,Chile,42,Santiago,92,-33.4488897,-70.6692655,0-5 personas,2,1
+192236,192,¿Cómo Viajamos? App Para Realizar Denuncias Y Reclamos En El Uso Del Transporte Público De Pasajeros De La Región Metropolitana De Buenos Aires,"Fundación Laboratorio De Políticas Públicas, Lpp",236,Argentina,62,Buenos Aires,16,-34.6036844,-58.3815591,6-10 personas,2,1
+192237,192,¿Cómo Viajamos? App Para Realizar Denuncias Y Reclamos En El Uso Del Transporte Público De Pasajeros De La Región Metropolitana De Buenos Aires,On The Move,237,Argentina,62,Buenos Aires,16,-34.6036844,-58.3815591,0-5 personas,1,1
+193238,193,Projeto Guardiões Do Cariri - Cidade Modelo Mauriti-Ce,Centro De Educação E Assessoria Popular Mauriti-Ce  ,238,Brasil,57,Mauritice,61,-7.3829493,-38.7716665,0-5 personas,1,1
+194239,194,"Arteria: Activa, Responde, Transforma.",Medialab Quito,239,Ecuador,54,Guayaquil,37,-2.1709979,-79.9223592,> 1000 personas,1,1
+194166,194,"Arteria: Activa, Responde, Transforma.",Fundapi,166,Ecuador,54,Quito,80,-0.1806532,-78.4678382,0-5 personas,1,1
+194240,194,"Arteria: Activa, Responde, Transforma.",Red Infodesarrollo,240,Ecuador,54,Quito,80,-0.1806532,-78.4678382,6-10 personas,1,1
+194241,194,"Arteria: Activa, Responde, Transforma.",Escuela Politécnica Nacional,241,Ecuador,54,Quito,80,-0.1806532,-78.4678382,101-500 personas,2,1
+195242,195,Veedor De Obras,"Veeduria Distrital De Bogotá, Veeduría Delegada Para La Contratación",242,Colombia,35,Bogotá,13,4.7109886,-74.072092,6-10 personas,2,1
+196243,196,Saludx,Cristian Damián Cazón,243,Argentina,62,Palpalá,72,-24.2584127,-65.2084907,11-25 personas,1,1
+19753,197,Plataforma Pro Municipio,Socialtic,53,México,51,Ciudad de México,22,19.4326077,-99.133208,0-5 personas,11,1
+197245,197,Plataforma Pro Municipio,Centro De Investigaciones Y Estudios En Antropología Social ,245,México,51,Ciudad de México,22,19.4326077,-99.133208,11-25 personas,1,1
+198246,198,Construyendo Caminos Seguros,Asi - Asesores Para La Inversión Social,246,México,51,Guadalajara,36,20.6596988,-103.3496092,6-10 personas,1,1
+199247,199,Geomatica En Organismos Publicos,"Secretaria De Planificacion, Desarrollo Y Modernizacion De La Municipalidad De San Salvador De Jujuy",247,Argentina,62,San Salvador de Jujuy,90,-24.1857864,-65.2994767,101-500 personas,2,1
+199248,199,Geomatica En Organismos Publicos,Digital Network Srl,248,Argentina,62,San Salvador de Jujuy,90,-24.1857864,-65.2994767,6-10 personas,2,1
+200249,200,Open Failure,Instituto Del Fracaso A.C.,249,México,51,Cuernavaca,27,18.9242095,-99.2215659,0-5 personas,3,2
+201250,201,Banca Ética Latinoamérica,Fundación Mapocho,250,Chile,42,Santiago,92,-33.4488897,-70.6692655,0-5 personas,3,2
+202252,202,Cuidando E Monitorando A Cidade,"Ouvidoria-Geral Da União / Ministério Da Transparência, Fiscalização E Controladoria-Geral Da União?-Cgu",252,Brasil,57,Belém,10,-1.4557292,-48.4901785,6-10 personas,3,2
+202254,202,Cuidando E Monitorando A Cidade,Centro De Mídias Cívicas Do Mit Media Lab,254,Brasil,57,Brasilia,14,-15.826691,-47.9218204,11-25 personas,4,1
+202255,202,Cuidando E Monitorando A Cidade,Instituto Humanitas360,255,Brasil,57,Curitiba,28,-25.4808762,-49.3044253,6-10 personas,4,1
+202154,202,Cuidando E Monitorando A Cidade,Rede Conhecimento Social,154,Puerto Rico,86,San Juan,88,18.4655394,-66.1057355,6-10 personas,3,1
+202251,202,Cuidando E Monitorando A Cidade,"Colaboratório De Desenvolvimento E Participação, Universidade De São Paulo",251,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,11-25 personas,3,1
+202253,202,Cuidando E Monitorando A Cidade,Laboratório De Inovação E Controle No Setor Público Da Universidade Federal Do Pará,253,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,11-25 personas,3,2
+202256,202,Cuidando E Monitorando A Cidade,Rede De Observatorio Social Do Brasil,256,Otro,90,Washington DC,110,38.9071923,-77.0368707,26-50 personas,4,1
+203257,203,Tu Conteo ,Grupo De Inovacion E Inteligencia Ciudadana ,257,México,51,Guadalajara,36,20.6596988,-103.3496092,0-5 personas,1,1
+204258,204,Plataforma De Participación ,Fundación Base Pública,258,Chile,42,Santiago,92,-33.4488897,-70.6692655,0-5 personas,1,1
+206260,206,Obras De Mi Ciudad,Fundación Nacional Para El Desarrollo (Funde),260,El Salvador,79,San Salvador,89,13.6929403,-89.2181911,51-100 personas,1,1
+207261,207,Desarrollo De Proyectos De Placemaking Creativos Desde Comunidades,Fundación Nuevas Contingencias Sociales,261,Chile,42,Santiago,92,-33.4488897,-70.6692655,6-10 personas,1,2
+208262,208,Iniciativa Educação Aberta Brasil,Instituto Educadigital,262,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,0-5 personas,1,2
+209263,209,Cocozap,Observatório De Favelas Do Rio De Janeiro,263,Brasil,57,Río de Janeiro,82,-22.9068467,-43.1728965,11-25 personas,1,1
+209264,209,Cocozap,Casa Fluminense,264,Brasil,57,Río de Janeiro,82,-22.9068467,-43.1728965,11-25 personas,1,1
+210265,210,Jujuy Colaborativo,Cooperativa De Trabajo Tecnomática Limitada,265,Argentina,62,San Salvador de Jujuy,90,-24.1857864,-65.2994767,0-5 personas,1,1
+210266,210,Jujuy Colaborativo,Dirección De Transparencia Y Gobierno Abierto De La Provincia De Jujuy,266,Argentina,62,San Salvador de Jujuy,90,-24.1857864,-65.2994767,6-10 personas,1,1
+211267,211,Plataforma Fazer Solidário: Conectando Práticas Econômicas Alternativas,Centro De Assessoria Multiprofissional ,267,Brasil,57,Porto Alegre,77,-30.0346471,-51.2176584,11-25 personas,3,1
+212268,212,Gênero E Número,Gênero E Número,268,Brasil,57,Río de Janeiro,82,-22.9068467,-43.1728965,0-5 personas,1,1
+213269,213,Innpactia: Acercando Recursos A Las Causas,Innpactia S.A.S.,269,Colombia,35,Bogotá,13,4.7109886,-74.072092,0-5 personas,1,1
+214270,214,Munitic,Colnodo – Asociación Colombiana De Organizaciones No Gubernamentales Para La Comunicación Vía Correo Electrónico,270,Colombia,35,Bogotá,13,4.7109886,-74.072092,6-10 personas,1,1
+215271,215,Enspiral Latinoamerica,Pictórica Comunicações S/C Ltda,271,Otro,90,Barcelona,8,41.401413,2.157862,0-5 personas,1,1
+215272,215,Enspiral Latinoamerica,Loomio Cooperative Limited,272,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,0-5 personas,2,1
+216273,216,Plataforma Democracia Digital,Emagic,273,Ecuador,54,Quito,80,-0.1806532,-78.4678382,6-10 personas,2,1
+216274,216,Plataforma Democracia Digital,Fundación Democracia Digital Ecuador,274,Ecuador,54,Quito,80,-0.1806532,-78.4678382,11-25 personas,2,1
+217275,217,Lupa Dca,"Instituto Metropolitano De Profissionalização, Arte, Cultura E Oportunidades - Impacto",275,Brasil,57,Jaboatao dos Guararapes,43,-8.1688125,-34.920874,6-10 personas,2,1
+218276,218,Phomenta - Doe Profissionalmente.,Instituto Phomenta,276,Brasil,57,Campinas,18,-22.9329252,-47.073845,6-10 personas,1,1
+219277,219,Red Tonos Cihuatl,"Agencia Metropolitana De Seguridad, Laboratorio De Políticas Públicas",277,México,51,Ciudad de México,22,19.4326077,-99.133208,0-5 personas,1,1
+219278,219,Red Tonos Cihuatl,Cultura Y Educación Para El Desarrollo Y La Autonomía En México,278,México,51,Ciudad de México,22,19.4326077,-99.133208,0-5 personas,4,1
+219279,219,Red Tonos Cihuatl,Zapopan Lab,279,México,51,Ciudad de México,22,19.4326077,-99.133208,0-5 personas,4,1
+220280,220,"Banca Imaginária A Cultura Brasileira Em Movimento""",Instituto Para O Desenvolvimento Racional Das Cidades,280,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,> 1000 personas,4,1
+221281,221,Gerico Gestión De Riesgo De Colombia,Gerico,281,Colombia,35,Bogotá,13,4.7109886,-74.072092,6-10 personas,1,1
+222282,222,Sistema Háblame De Respeto,Fundación Latitudes ,282,El Salvador,79,San Salvador,89,13.6929403,-89.2181911,6-10 personas,2,1
+223283,223,Repositorios Digitales Abiertos En Sistemas De Transporte Público Para Promoción Del Acceso A Información Y Transparencia,Pontificia Universidad Católica Del Perú,283,Perú,25,Lima,51,-12.0463731,-77.042754,0-5 personas,2,1
+224284,224,Combate A La Pobreza Multidimensional Mediante Alianzas Público Privadas,Asociación Horizonte Positivo,284,Costa Rica,78,San José,87,-31.8970823,-61.8598807,6-10 personas,1,1
+225285,225,Innovación Cívica Para La Mejora Del Transporte Público En Mendoza,Fundación Centro Latinoamericano De Derechos Humanos,285,Argentina,62,Mendoza,63,-32.8894587,-68.8458386,6-10 personas,4,1
+225286,225,Innovación Cívica Para La Mejora Del Transporte Público En Mendoza,Creapption,286,Argentina,62,Mendoza,63,-32.8894587,-68.8458386,11-25 personas,3,1
+225287,225,Innovación Cívica Para La Mejora Del Transporte Público En Mendoza,Nuestra Mendoza,287,Argentina,62,Mendoza,63,-32.8894587,-68.8458386,0-5 personas,4,1
+226288,226,Burocratas,Xue Colombia Ltda,288,Colombia,35,Bogotá,13,4.7109886,-74.072092,0-5 personas,1,1
+226289,226,Burocratas,Corporación Con Tacto Local,289,Colombia,35,Bogotá,13,4.7109886,-74.072092,6-10 personas,4,1
+226290,226,Burocratas,Fundación Karisma,290,Colombia,35,Bogotá,13,4.7109886,-74.072092,6-10 personas,1,1
+22797,227,Datasketch,Random Monkey,97,Colombia,35,Bogotá,13,4.7109886,-74.072092,0-5 personas,1,1
+228285,228,Estacionamiento Inteligente,Centro Latinoamericano De Derechos Humanos,285,Argentina,62,Mendoza,63,-32.8894587,-68.8458386,11-25 personas,2,1
+228286,228,Estacionamiento Inteligente,Creapption,286,Argentina,62,Mendoza,63,-32.8894587,-68.8458386,0-5 personas,1,1
+229291,229,Micongreso,"Explico, S.A.",291,Guatemala,80,Guatemla,36,14.6349149,-90.5068824,51-100 personas,2,1
+230292,230,Fortalecimiento De Junta De Vecinos,Fundación Proyecto Propio,292,Chile,42,Santiago,92,-33.4488897,-70.6692655,6-10 personas,2,1
+231119,231,Ocupa Tu Calle,Lima Cómo Vamos,119,Perú,25,Lima,51,-12.0463731,-77.042754,6-10 personas,1,1
+231120,231,Ocupa Tu Calle,Detona,120,Perú,25,Lima,51,-12.0463731,-77.042754,51-100 personas,1,1
+231293,231,Ocupa Tu Calle,Asociación Unacem,293,Perú,25,Lima,51,-12.0463731,-77.042754,0-5 personas,7,1
+232295,232,Sistema De Gestión De Proyectos De Inversión De La Provincia De Río Negro,Asuntos Del Sur,295,Argentina,62,Buenos Aires,16,-34.6036844,-58.3815591,0-5 personas,7,1
+232296,232,Sistema De Gestión De Proyectos De Inversión De La Provincia De Río Negro,Secretaría De Planificación,296,Argentina,62,La Plata,49,-34.9205,-57.9536,0-5 personas,7,1
+232294,232,Sistema De Gestión De Proyectos De Inversión De La Provincia De Río Negro,Econsulting S.R.L.,294,Argentina,62,Viedma,108,-40.8119087,-62.9962044,6-10 personas,7,1
+234299,234,Cultivando Futuro,Cultivando Futuro,299,Colombia,35,Bogotá,13,4.7109886,-74.072092,101-500 personas,7,1
+235300,235,Click Social,"Plan B Para El Desarrollo, Ac",300,México,51,Ciudad de México,22,19.4326077,-99.133208,0-5 personas,7,1
+235301,235,Click Social,"Sociedad En Movimiento, Ac",301,México,51,Ciudad de México,22,19.4326077,-99.133208,6-10 personas,1,1
+236302,236,Noosfero: Plataforma Web Livre Para A Criação De Redes Sociais Autônomas E Participação Cívica,Colivre - Cooperativa De Tecnologias Livres,302,Brasil,57,Porto Alegre,77,-30.0346471,-51.2176584,0-5 personas,1,1
+236303,236,Noosfero: Plataforma Web Livre Para A Criação De Redes Sociais Autônomas E Participação Cívica,Secretaria De Estado Dos Direitos Humanos E Participação Popular,303,Brasil,57,Salvador,85,-12.977749,-38.5016301,6-10 personas,1,1
+236304,236,Noosfero: Plataforma Web Livre Para A Criação De Redes Sociais Autônomas E Participação Cívica,Associação Software Livre.Org,304,Brasil,57,São Luis,96,-2.52972,-44.30278,11-25 personas,1,2
+23759,237,Cuidados De Saúde Acessíveis,Nau Interativa,59,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,6-10 personas,1,2
+238305,238,Dyntra Latam,Soluntia Sa,305,Panamá,84,Panamá,73,8.9823792,-79.5198696,0-5 personas,1,1
+239306,239,Observatorio De Publicidad Oficial,"Campaña Global Por La Libertad De Expresión A19, A.C.",306,México,51,Ciudad de México,22,19.4326077,-99.133208,> 1000 personas,2,1
+240307,240,Tecnología Y El Mejoramiento Habitacional Urbano,"Centro De Innovación A La Vivienda (Civ), A.C.",307,México,51,Hermosillo ,39,29.0729673,-110.9559192,6-10 personas,2,1
+241261,241,Fundación Nuevas Contingencias Sociales,Fundación Nuevas Contingencias Sociales,261,Chile,42,Santiago,92,-33.4488897,-70.6692655,0-5 personas,2,1
+242308,242,Compartir,Cieds - Centro Integrado De Estudos E Programas De Desenvolvimento Sustentável,308,Brasil,57,Río de Janeiro,82,-22.9068467,-43.1728965,0-5 personas,2,1
+243317,243,Mobilidade Urbana Aberta,Associação Casa Fluminense,317,Brasil,57,Belo Horizonte,11,-19.9172987,-43.9345593,0-5 personas,3,1
+243314,243,Mobilidade Urbana Aberta,Instituto Nossa Ilhéus,314,Brasil,57,Brasilia,14,-15.826691,-47.9218204,51-100 personas,2,1
+243315,243,Mobilidade Urbana Aberta,Instituto Soma Brasil ,315,Brasil,57,Ilhabela,40,-23.8158392,-45.3664809,11-25 personas,1,1
+243312,243,Mobilidade Urbana Aberta,Movimento Nossa Bh,312,Brasil,57,Ilhéus,41,-14.7935051,-39.0463797,26-50 personas,2,1
+243309,243,Mobilidade Urbana Aberta,Imaflora,309,Brasil,57,João Pessoa ,44,-7.1194958,-34.8450118,6-10 personas,1,1
+243310,243,Mobilidade Urbana Aberta,Instituto De Cidadania Empresarial Do Maranhão,310,Brasil,57,Piracicaba,76,-22.7626467,-47.8427298,0-5 personas,1,1
+243313,243,Mobilidade Urbana Aberta,Inesc-Instituto De Estudos Socioeconômicos,313,Brasil,57,Recife,81,-8.0522404,-34.9286096,0-5 personas,2,1
+243311,243,Mobilidade Urbana Aberta,Instituto São Paulo Sustentável,311,Brasil,57,Río de Janeiro,82,-22.9068467,-43.1728965,0-5 personas,2,1
+243316,243,Mobilidade Urbana Aberta,Observatório Do Recife,316,Brasil,57,São Luis,96,-2.52972,-44.30278,6-10 personas,1,1
+243184,243,Mobilidade Urbana Aberta,Appcivico - Eokoe Soluções Tecnológicas Ltda,184,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,0-5 personas,1,1
+243202,243,Mobilidade Urbana Aberta,Instituto Ilhabela Sustentável,202,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,0-5 personas,1,1
+244318,244,Sos Eleitor (Sos Votante),Voter Desenvolvimento De Software Ltda,318,Brasil,57,Florianópolis,34,-27.5948698,-48.5482195,6-10 personas,3,1
+245319,245,Inteligencia Artificial Contra La Corrupción,Fundación Ecomunidad,319,Colombia,35,Bogotá,13,4.7109886,-74.072092,6-10 personas,3,1
+246320,246,Plataforma Sas De Participación Ciudadana,Acción Colectiva,320,Argentina,62,Rosario,84,-32.9442426,-60.6505388,0-5 personas,1,1
+247321,247,Monitor Ciudadano,Corporación Control Social Colombia,321,Colombia,35,Medellín,62,6.244203,-75.5812119,0-5 personas,1,1
+248322,248,Plataforma Para El Monitoreo De Parámetros De Salud Y De Actividad Del Adulto Mayor,Dynamizeit,322,Uruguay,55,Montevideo,66,-34.9011127,-56.1645314,26-50 personas,1,1
+249323,249,Startup Rei,Receita Federal,323,Brasil,57,Santo Adre,93,-23.6742228,-46.5436003,0-5 personas,1,1
+25079,250,Calculadora De La Desigualdad De Género,Wingu,79,Argentina,62,Buenos Aires,16,-34.6036844,-58.3815591,11-25 personas,1,1
+250324,250,Calculadora De La Desigualdad De Género,Economía Feminista,324,Argentina,62,Buenos Aires,16,-34.6036844,-58.3815591,11-25 personas,3,1
+251325,251,Comunidad Huerta,Comunidad Huerta,325,Argentina,62,Buenos Aires,16,-34.6036844,-58.3815591,0-5 personas,2,1
+252326,252,Impacto Ciudad,Guarumo,326,Colombia,35,Bucaramanga,15,7.119349,-73.1227416,0-5 personas,3,2
+253327,253,Mi Concejo,Fundación Cívico Social Pro Cartagena - Funcicar,327,Colombia,35,Cartagena,21,10.3910485,-75.4794257,11-25 personas,2,2
+254328,254,Limapp,Grupo Limonta,328,Perú,25,Lima,51,-12.0463731,-77.042754,0-5 personas,3,1
+255329,255,Mapa Internacional De Instituições Arquivísticas (Archives World Map),"Grupo De Estudos Sobre Cultura, Representação E Informação Digitais - Cridi ",329,Brasil,57,Salvador,85,-12.977749,-38.5016301,6-10 personas,2,1
+256330,256,Ecuador Chequea,Fundamedios,330,Ecuador,54,Quito,80,-0.1806532,-78.4678382,6-10 personas,3,1
+257331,257,Proyecto Participa 2017,Cscr ,331,Costa Rica,78,Alajuela ,1,10.0159394,-84.2141701,0-5 personas,3,1
+258332,258,Yeeko Inteligencia Colectiva,Yeeko Inteligencia Colectiva,332,México,51,Ciudad de México,22,19.4326077,-99.133208,11-25 personas,3,1
+259333,259,Programa Makernel: El Primer Makerspace Portátil 100% Tico,Fundación Costa Rica Para La Innovación,333,Costa Rica,78,San José,87,-31.8970823,-61.8598807,26-50 personas,1,1
+26079,260,El Recorrido: Tecnología Ciudadana Para Mejorar La Detección Temprana Del Cáncer En El Sistema Público De Salud.  ,Wingu,79,Argentina,62,Buenos Aires,16,-34.6036844,-58.3815591,11-25 personas,1,1
+260334,260,El Recorrido: Tecnología Ciudadana Para Mejorar La Detección Temprana Del Cáncer En El Sistema Público De Salud.  ,Directorio Legislativo,334,Argentina,62,Buenos Aires,16,-34.6036844,-58.3815591,6-10 personas,3,1
+260335,260,El Recorrido: Tecnología Ciudadana Para Mejorar La Detección Temprana Del Cáncer En El Sistema Público De Salud.  ,Fundación Pacientes Cáncer De Pulmón,335,Argentina,62,Buenos Aires,16,-34.6036844,-58.3815591,0-5 personas,3,1
+261336,261,La Vidriera Del Emprendedor ,Fundación Ejercicio Ciudadano,336,Argentina,62,Rosario,84,-32.9442426,-60.6505388,0-5 personas,3,1
+261337,261,La Vidriera Del Emprendedor ,"Municipalidad De Rosario, Secretaria De Economia Social, Dirección General De Desarrollo De La Economía Social",337,Argentina,62,Rosario,84,-32.9442426,-60.6505388,0-5 personas,3,1
+261338,261,La Vidriera Del Emprendedor ,Oneeyeant,338,Argentina,62,Rosario,84,-32.9442426,-60.6505388,0-5 personas,1,1
+261339,261,La Vidriera Del Emprendedor ,De La Azotea,339,Argentina,62,Rosario,84,-32.9442426,-60.6505388,0-5 personas,2,1
+262340,262,Sebuscan,Sebuscan Sas,340,Colombia,35,Bogotá,13,4.7109886,-74.072092,6-10 personas,2,1
+263341,263,Malalai,Malalai Tecnologia De Segurança Ltda,341,Brasil,57,Belo Horizonte,11,-19.9172987,-43.9345593,6-10 personas,3,1
+264342,264,Akredito,Akredito,342,Brasil,57,Río de Janeiro,82,-22.9068467,-43.1728965,6-10 personas,3,1
+265343,265,"Participación Ciudadana Transparente, Una Plataforma Amigable ","Capítulo Chileno De Transparencia Internacional, Chile Transparente",343,Chile,42,Santiago,92,-33.4488897,-70.6692655,0-5 personas,3,1
+265344,265,"Participación Ciudadana Transparente, Una Plataforma Amigable ",Asociación Chilena De Voluntarios,344,Chile,42,Santiago,92,-33.4488897,-70.6692655,11-25 personas,1,1
+266345,266,Ozzymandhas - Jornalismo Colaborativo,Cobracriada,345,Brasil,57,Brasilia,14,-15.826691,-47.9218204,0-5 personas,1,1
+267347,267,Por Mi Barrio Nicaragua,Centro Para Programas De Comunicación Nicaragua (Cpcnic),347,Nicaragua,83,Managua,58,12.1149926,-86.2361744,0-5 personas,1,1
+267346,267,Por Mi Barrio Nicaragua,Guegue Vasquez Cia Ltda,346,Nicaragua,83,Nueva York,70,40.7127753,-74.0059728,0-5 personas,1,1
+268207,268,Todos Por Um (Tp1),Associação Todos Por Um ,207,Brasil,57,Londrina,55,-23.3044524,-51.1695824,11-25 personas,1,1
+268208,268,Associação Todos Por Um  (Tp1),Mz Tecnologia,208,Brasil,57,Londrina,55,-23.3044524,-51.1695824,26-50 personas,11,1
+268209,268,Associação Todos Por Um  (Tp1),Geleia .Mob,209,Brasil,57,Londrina,55,-23.3044524,-51.1695824,0-5 personas,11,1
+269348,269,Social Games: Energía Eólica: Energía Limpia Para Quién?,Cáritas Brasileira Regional Nordeste Ii,348,Brasil,57,Recife,81,-8.0522404,-34.9286096,11-25 personas,11,1
+270349,270,Ceu- Centro De Empreendedorismo Universitario &Consultoria Ltda,Centro De Empreendedorismo Universitario &Consultoria Ltda,349,Brasil,57,Río de Janeiro,82,-22.9068467,-43.1728965,6-10 personas,11,1
+271350,271,Presupuesto Participativo,Centro De Estudios Ambientales Y Sociales (Ceamso),350,Paraguay,85,Asunción,6,-25.2637399,-57.575926,6-10 personas,11,1
+272351,272,"Mapa Falante: Tecnologia Cívica Para Monitoramento Participativo De Informações Sobre Serviços, Dados E Vivências ",Cedaps,351,Brasil,57,Río de Janeiro,82,-22.9068467,-43.1728965,11-25 personas,11,1
+274353,274,Mujeres Campesinas Y Jovenes Por  Una Participación Ciudadana Digital  Activa Y Reivindicativa En La Región Caribe Colombiana,Asociación Colectivo Mujeres Al Derecho,353,Colombia,35,Barranquilla,9,11.0041072,-74.8069813,6-10 personas,11,1
+275184,275,Appcivico - Mandato Aberto E Voto Legal,Eokoe Soluções Tecnológicas ,184,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,11-25 personas,11,1
+276354,276,"App Interfaz De Verificación De Cuotas Patronales Del Sector Público Y Privado Igss, Guatemala",Acción Ciudadana ,354,Guatemala,80,Guatemala,36,14.6349149,-90.5068824,6-10 personas,11,1
+277355,277,Red País. Una Plataforma Para Articular El Progreso Social. ,Fundación Villafranca Y Zurcher Para La Educación De La Juventud A Través Del Turismo,355,Costa Rica,78,San José,87,-31.8970823,-61.8598807,6-10 personas,1,1
+277356,277,Red País. Una Plataforma Para Articular El Progreso Social. ,Responsible Business Alliance (Rba),356,Costa Rica,78,San José,87,-31.8970823,-61.8598807,0-5 personas,1,1
+277357,277,Red País. Una Plataforma Para Articular El Progreso Social. ,Estudio Manatí S.A.,357,Costa Rica,78,San José,87,-31.8970823,-61.8598807,0-5 personas,1,1
+278358,278,Rio Doce Ativo,Associação Comunitária De Bento Rodrigues,358,Brasil,57,Belo Horizonte,11,-19.9172987,-43.9345593,0-5 personas,1,1
+278359,278,Rio Doce Ativo,Gafit Soluções Em Automação Ltda - Me,359,Brasil,57,Belo Horizonte,11,-19.9172987,-43.9345593,0-5 personas,1,1
+278361,278,Rio Doce Ativo,Nachhaltigkeit Educação Ltda,361,Brasil,57,Belo Horizonte,11,-19.9172987,-43.9345593,26-50 personas,2,1
+278360,278,Rio Doce Ativo,Troca: Gestão Social Para A Sustentabilidade,360,Brasil,57,Mariana,60,-20.3652719,-43.4150073,6-10 personas,1,1
+279362,279,Sistema De Información Territorial Prodepaz ,Corporación Prodepaz,362,Colombia,35,Río Negro,83,6.144837,-75.375085,11-25 personas,1,1
+279352,279,Observadores De Comunicación Ciudadana,Observatorio De Comunicación Pucv,352,Chile,42,Valparaíso,105,-33.047238,-71.6126885,101-500 personas,1,1
+280363,280,Iniciativa Funes: Un Metabuscador Para Identificar Personas De Perfil De Riesgo En La Política Del Perú.,Ojopúblico,363,Perú,25,Lima,51,-12.0463731,-77.042754,501-1000 personas,1,1
+281364,281,Ilhapush,Ilhasoft,364,Brasil,57,Maceió,56,-9.6498487,-35.7089492,0-5 personas,1,1
+282365,282,Benchmark Empresas Y Paz,Cámara De Comercio De Bogotá - Ccb,365,Colombia,35,Bogotá,13,4.7109886,-74.072092,0-5 personas,1,1
+282366,282,Benchmark Empresas Y Paz,Fundacion Ideas Para La Paz,366,Colombia,35,Bogotá,13,4.7109886,-74.072092,26-50 personas,1,1
+283367,283,Instituto Del Desarrollo De La Juventud,Instituto Del Desarrollo De La Juventud,367,Otro,90,Bruselas,15,50.8503396,4.3517103,0-5 personas,1,1
+284368,284,Red Digital Taturana -  Distribución De Películas Independientes En Circuitos Sociales,Taturana Mobilização Social,368,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,501-1000 personas,1,1
+285369,285,Hacia La Igualdad De Género A Través De Narrativas Digitales Innovadoras,Instituto De Liderazgo Simone De Beauvoir A.C. ,369,México,51,Morelia,67,19.7059504,-101.1949825,6-10 personas,1,1
+286370,286,Tecnología Y Datos - Enlace Entre La Población Y La Policía Nacional Del Ecuador,Smart Data Services,370,Ecuador,54,Quito,80,-0.1806532,-78.4678382,26-50 personas,3,1
+286371,286,Tecnología Y Datos - Enlace Entre La Población Y La Policía Nacional Del Ecuador,Policía Nacional Del Ecuador,371,Ecuador,54,Quito,80,-0.1806532,-78.4678382,6-10 personas,2,2
+287372,287,Monitoramento De Dados Ambientais Para Análise De Risco,Cnpi - Centro Nacional De Informatica,372,Brasil,57,Río de Janeiro,82,-22.9068467,-43.1728965,0-5 personas,4,2
+28879,288,Ruta De Las Medicinas,Wingu,79,México,51,Ciudad de México,22,19.4326077,-99.133208,0-5 personas,3,1
+288373,288,Ruta De Las Medicinas,Sonora Ciudadana Ac,373,México,51,Ciudad de México,22,19.4326077,-99.133208,11-25 personas,4,1
+289374,289,Plataforma De Contralorìa Social Para La Mejora De Los Servicios Pùblicos Municipales ,Creathink ,374,México,51,Ciudad de México,22,19.4326077,-99.133208,0-5 personas,4,1
+290376,290,Curso Abierto De Internet Para Acelerar El Cambio Social En América Latina,Hiperderecho,376,Perú,25,Lima,51,-12.0463731,-77.042754,0-5 personas,4,1
+290375,290,Curso Abierto De Internet Para Acelerar El Cambio Social En América Latina,Public Knowledge,375,Otro,90,Madrid,57,40.4167754,-3.7037902,0-5 personas,4,1
+291377,291,Red Social Anti-Corrupción Con Acción Jurídica (Aplicapp),Cocreamos S.A.S.,377,Colombia,35,Medellín,62,6.244203,-75.5812119,11-25 personas,1,1
+29223,292,Synchronicity,Núcleo Digital,23,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,0-5 personas,1,1
+292378,292,Synchronicity,Cocidade,378,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,11-25 personas,1,1
+293379,293,Sistema De Gestión Participativa Para La Incidencia Social En Políticas Públicas,Observatorio Mexicano De La Crisis,379,México,51,Ciudad de México,22,19.4326077,-99.133208,0-5 personas,2,1
+294380,294,El Uso De Las Tics Para El Desarrollo Social,Instituto Demos,380,Guatemala,80,Guatemala,36,14.6349149,-90.5068824,6-10 personas,2,1
+295381,295,Mi Voto Vale,Nova Grupo De Consultoria Sas,381,Colombia,35,Bogotá,13,4.7109886,-74.072092,0-5 personas,1,1
+296382,296,Programa De Convivencias Digitales,How To Build Up,382,Colombia,35,Bogotá,13,4.7109886,-74.072092,11-25 personas,2,1
+296188,296,Programa De Convivencias Digitales,Policéntrico,188,Otro,90,Maputo,59,-25.969248,32.5731746,11-25 personas,2,1
+297383,297,Calhau Social,Calhau Social ,383,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,11-25 personas,1,1
+298386,298,"Creación De Chileleaks, Centroaméricaleaks Y  Latamleaks, Coordinadora Regional De Las Plataformas De Whistleblowing.",Associated Whistleblowing Press,386,México,51,Ciudad de México,22,19.4326077,-99.133208,0-5 personas,2,1
+29824,298,"Creación De Chileleaks, Centroaméricaleaks Y  Latamleaks, Coordinadora Regional De Las Plataformas De Whistleblowing.",Poder,24,Guatemala,80,Guatemala,36,14.6349149,-90.5068824,0-5 personas,1,1
+298385,298,"Creación De Chileleaks, Centroaméricaleaks Y  Latamleaks, Coordinadora Regional De Las Plataformas De Whistleblowing.",Plaza Pública ,385,Otro,90,Madrid,57,40.4167754,-3.7037902,11-25 personas,1,1
+298384,298,"Creación De Chileleaks, Centroaméricaleaks Y  Latamleaks, Coordinadora Regional De Las Plataformas De Whistleblowing.",Fundación Ciudadano Inteligente,384,Chile,42,Santiago,92,-33.4488897,-70.6692655,6-10 personas,1,1
+299387,299,Let'S Chat,Let'S Chat,387,Chile,42,Santiago,92,-33.4488897,-70.6692655,0-5 personas,1,1
+300388,300,Incentivo A Cultura Digital,Centro De Formação E Organização Comunitária - Ceforc,388,Brasil,57,Livramento de Nossa Senhora,53,-13.6420856,-41.8412148,11-25 personas,1,1
+301389,301,Datathon Latam ,Corporación Científicas De Datos ,389,Colombia,35,Pereira ,75,4.8087174,-75.690601,6-10 personas,3,1
+302390,302,Planeadores Ciudadanos,Fundación Bit,390,Colombia,35,Bogotá,13,4.7109886,-74.072092,0-5 personas,3,1
+302390,302,Planeadores Ciudadanos,Fundación Bit,390,Colombia,35,Medellín,62,6.244203,-75.5812119,101-500 personas,3,1
+303391,303,Obra Chueca,Ruta Cívica,391,México,51,Ciudad de México,22,19.4326077,-99.133208,0-5 personas,4,1
+303392,303,Obra Chueca,Visual Reporting Technologies,392,México,51,Ciudad de México,22,19.4326077,-99.133208,26-50 personas,4,1
+304393,304,Infraestructura Visible,Facultad De Ingenería Universidad De Los Andes,393,Colombia,35,Bogotá,13,4.7109886,-74.072092,11-25 personas,4,1
+305394,305,Fact-Check Para Projetos De Lei E Políticas Públicas Informados Por Evidências,Instituto Veredas,394,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,6-10 personas,4,1
+306395,306,Vacuna Sociales Proyecto Tom G5G,Mindball Ong Planeta,395,Brasil,57,Divinópolis ,32,-20.103444,-44.9716724,0-5 personas,2,1
+307390,307,Appcesible,Fundación Bit,390,Colombia,35,Medellín,62,6.244203,-75.5812119,0-5 personas,1,1
+308396,308,Información Inclusiva Y Participativa Para ¨Todos¨,Fundación Inhoy,396,Chile,42,Santiago,92,-33.4488897,-70.6692655,11-25 personas,3,1
+308397,308,Información Inclusiva Y Participativa Para ¨Todos¨,Dtlnet Ltda.,397,Chile,42,Santiago ,92,-33.4488897,-70.6692655,6-10 personas,1,1
+309398,309,Latin - Iniciativa Latinoamericana De Tecnologías Y Recursos Abiertos Para La Educación,Asociación Latin,398,Uruguay,55,Montevideo,66,-34.9011127,-56.1645314,0-5 personas,1,1
+310334,310,Hecha La Ley,Directorio Legislativo,334,Argentina,62,Buenos Aires,16,-34.6036844,-58.3815591,6-10 personas,2,1
+310399,310,Hecha La Ley,Democracia En Red,399,Argentina,62,Buenos Aires,16,-34.6036844,-58.3815591,0-5 personas,2,1
+311401,311,Ciudadano Presente,Maga Systems & Consulting,401,Panamá,84,Asunción,6,-25.2637399,-57.575926,0-5 personas,1,1
+311400,311,Ciudadano Presente,Fundación Generación Sin Límite,400,Panamá,84,Panamá,73,8.9823792,-79.5198696,0-5 personas,1,1
+312402,312,Seamos Democracia Digital,Corporación Seamos - Democracia Digital,402,Colombia,35,Bogotá,13,4.7109886,-74.072092,0-5 personas,1,1
+313403,313,Unostres,Unostres,403,Ecuador,54,Quito,80,-0.1806532,-78.4678382,6-10 personas,2,1
+314404,314,Laboratório De Governo Aberto: Uma Plataforma De Indicadores E Engajamento Social,Instituto Casa Da Cidade,404,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,101-500 personas,2,1
+315405,315,"Estrategias Comunitarias Para Crear Y Fortalecer Un Sistema De Comunicaci Libre Y Comunitaria En La Costa Pac{Ifica De Esmeraldas, Ecuador.",Agencia Ecologista De Información Tegantai,405,Ecuador,54,Quito,80,-0.1806532,-78.4678382,6-10 personas,1,1
+316151,316,Observatorio Del Gasto Fiscal,"Universidad De Santiago De Chile, Facultad De Administración Y Economía",151,Chile,42,Santiago,92,-33.4488897,-70.6692655,6-10 personas,1,1
+316149,316,Observatorio Del Gasto Fiscal,Fundación Contexto Ciudadano,149,Chile,42,Santiago ,92,-33.4488897,-70.6692655,0-5 personas,2,1
+317406,317,Wheels,Wheels,406,Colombia,35,Bogotá,13,4.7109886,-74.072092,0-5 personas,2,1
+318287,318,Plataforma De Apertura De Gobiernos,Fundación Nuestra Mendoza,287,Argentina,62,Mendoza,63,-32.8894587,-68.8458386,26-50 personas,2,1
+318407,318,Plataforma De Apertura De Gobiernos,Silice,407,Argentina,62,Mendoza,63,-32.8894587,-68.8458386,11-25 personas,1,1
+319157,319,Plataforma Educación (Nombre De Trabajo),Data Uruguay,157,Uruguay,55,Montevideo,66,-34.9011127,-56.1645314,0-5 personas,2,1
+320408,320,Asamblea,Corporación Somos Más,408,Colombia,35,Bogotá,13,4.7109886,-74.072092,0-5 personas,1,1
+320409,320,Asamblea,Universidad Nacional (Vivelab),409,Colombia,35,Bogotá,13,4.7109886,-74.072092,11-25 personas,1,1
+321410,321,Ojovaldivia.Cl Denuncia Y Articulación Ciudadana En Línea,Cooperativa Acá Comunicaciones,410,Chile,42,Valdivia ,104,-39.8195857,-73.2452103,0-5 personas,1,1
+321411,321,Ojovaldivia.Cl Denuncia Y Articulación Ciudadana En Línea,Agrupación Biósfera,411,Chile,42,Valdivia ,104,-39.8195857,-73.2452103,6-10 personas,2,1
+322240,322,Intercambio De Confianza,Red Infodesarrollo,240,Ecuador,54,quito,80,-0.1806532,-78.4678382,0-5 personas,1,1
+323412,323,Mobqi,Jmm Tech,412,Brasil,57,Belo Horizonte,11,-19.9172987,-43.9345593,0-5 personas,4,1
+324413,324,Compromiso Ciudadano,Innovavista,413,Argentina,62,Rosario,84,-32.9442426,-60.6505388,6-10 personas,4,4
+324414,324,Compromiso Ciudadano,Municipalidad De San Jorge,414,Argentina,62,San Jorge,86,-31.8970823,-61.8598807,0-5 personas,1,4
+325415,325,Toolkit Electoral,Update,415,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,0-5 personas,1,4
+325416,325,Toolkit Electoral,Aparabólica,416,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,> 1000 personas,1,4
+325417,325,Toolkit Electoral,Labhacker,417,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,0-5 personas,4,1
+326418,326,Sistematización De La Gestión Y Divulgación De La Información Pública De Ordenamiento Territorial Del Municipio De Yopal,Municipio De Yopal,418,Colombia,35,Yopal,112,5.348903,-72.400523,26-50 personas,1,1
+327421,327,Plataforma Cidadã,Fundação Educativa E Cultural - Arca,421,Brasil,57,Altaneira,2,-6.988451,-39.7484115,11-25 personas,2,3
+327419,327,Plataforma Cidadã,Acecci - Associação Cearense De Combate À Corrupção E À Impunidade,419,Brasil,57,Fortaleza,35,-3.7327144,-38.5269981,11-25 personas,1,1
+327420,327,Plataforma Cidadã,Instituto Banco Da Periferia - Palmas Lab,420,Brasil,57,Fortaleza,35,-3.7327144,-38.5269981,11-25 personas,1,1
+328422,328,Muove Brasil,Muove Brasil,422,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,6-10 personas,2,3
+328423,328,Muove Brasil,Centro De Liderança Pública,423,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,6-10 personas,1,3
+329424,329,Aguapps: Gestión Participativa Del Agua Para El Chaco,Mingarã. Asociación Para El Desarrollo Sustentable,424,Paraguay,85,Asunción,6,-25.2637399,-57.575926,6-10 personas,2,1
+329425,329,Aguapps: Gestión Participativa Del Agua Para El Chaco,Codium,425,Paraguay,85,Asunción,6,-25.2637399,-57.575926,0-5 personas,2,1
+330426,330,"Consolidación Del Portal Para Informantes De Denuncias Anónimas “Filtraciones Digitales” En México Y Su Escalamiento A Colombia, Costa Rica Y Uruguay.","Artículo 12, A.C. (Programa “Sontusdatos”)",426,México,51,Puebla,78,19.0414398,-98.2062727,26-50 personas,2,1
+331427,331,Promoción De Buenas Prácticas De Gestión Y Transparencia En Organizaciones Sin Fines De Lucro,Fundación Desarrollo Social Lealtad Chile,427,Chile,42,Santiago,92,-33.4488897,-70.6692655,6-10 personas,1,1
+332399,332,Democracyos - Por Democracia En Red,Democracia En Red,399,Argentina,62,Buenos Aires,16,-34.6036844,-58.3815591,6-10 personas,1,1
+333363,333,"Vihsión Ciudadana - Tecnología, Periodismo Y Experiencia En El Sector Para Monitorear, Analizar Y Comparar Políticas Públicas En Vih En Latinoamérica.","Ojopúblico - Asociación De Periodismo De Investigación Ojo Público Ojopúblico Tiene Personería Jurídica Como Una Asociación Civil Sin Fines De Lucro Llamada Asociación De Periodismo De Investigación Ojopúblico, Inscrita Ante La Superintendencia Nacional De Registros Públicos (Sunarp) Con La Partida Nº 13279852. ",363,Guatemala,80,Guatemala,36,14.6349149,-90.5068824,11-25 personas,1,1
+333428,333,"Vihsión Ciudadana - Tecnología, Periodismo Y Experiencia En El Sector Para Monitorear, Analizar Y Comparar Políticas Públicas En Vih En Latinoamérica.",Fundación Ciudadana Civio,428,Perú,25,Lima,51,-12.0463731,-77.042754,51-100 personas,2,1
+333429,333,"Vihsión Ciudadana - Tecnología, Periodismo Y Experiencia En El Sector Para Monitorear, Analizar Y Comparar Políticas Públicas En Vih En Latinoamérica.",Instituto Humanista De Cooperación Para El Desarrollo - Hivos,429,Perú,25,Lima,51,-12.0463731,-77.042754,0-5 personas,2,1
+334430,334,Mi Historial Médico,The Next Services,430,El Salvador,79,San Salvador,89,13.6929403,-89.2181911,11-25 personas,1,1
+335431,335,Enmobi,Comunideas Sas,431,Colombia,35,Medellín,62,6.244203,-75.5812119,6-10 personas,2,4
+336433,336,Mopa,Ux,433,Otro,90,Madrid,57,40.4167754,-3.7037902,6-10 personas,1,4
+336432,336,Mopa,"Fundación Capital - Los Empleados Mencionados Hacen Referencia A Toda La Organización Regional Que Esta Conformada Por Varias Sucursales. Una De Ellas Es México, Y Es En México Donde Estamos Proponiendo Realizar Mopa Por El Momento.  ",432,México,51,Puebla,78,19.0414398,-98.2062727,0-5 personas,1,4
+337434,337,Laboratorio De Movilidad,Fundación Biciacción,434,Ecuador,54,Quito,80,-0.1806532,-78.4678382,0-5 personas,1,4
+337435,337,Laboratorio De Movilidad,Llactalab - Ciudades Sustentables,435,Ecuador,54,Quito,80,-0.1806532,-78.4678382,6-10 personas,2,1
+33811,338,Mi Emprendimiento Abierto,Datalat,11,Ecuador,54,Quito,80,-0.1806532,-78.4678382,6-10 personas,2,1
+338239,338,Mi Emprendimiento Abierto,Fundación Medialab Quito,239,Ecuador,54,Quito,80,-0.1806532,-78.4678382,0-5 personas,1,1
+338436,338,Mi Emprendimiento Abierto,Impaqto,436,Ecuador,54,Quito,80,-0.1806532,-78.4678382,51-100 personas,1,1
+339437,339,Bgood Smart Philanthropy,Bgood Smart Philanthropy,437,Uruguay,55,Montevideo,66,-34.9011127,-56.1645314,6-10 personas,1,1
+340438,340,Movialidad,Rosario Mobile Apps,438,Argentina,62,Rosario,84,-32.9442426,-60.6505388,26-50 personas,1,1
+340439,340,Movialidad,Dirección General De Informática De La Municipalidad De Rosario,439,Argentina,62,Rosario,84,-32.9442426,-60.6505388,51-100 personas,1,1
+341440,341,"Tecnologías Y Derechos Humanos, Lo Virtual Se Vuelve Material","Capítulo Boliviano De Derechos Humanos, Democracia Y Desarrollo",440,Bolivia,77,La Paz,48,-16.489689,-68.1192936,0-5 personas,2,1
+342441,342,Desarrollo De Una Aplicación Digital Para Integrar A Sectores Sociales  Excluidos Del Mercado Laboral,Universidad Nacional De Rio Negro. ,441,Argentina,62,Viedma,109,-40.8119087,-62.9962044,6-10 personas,2,1
+343442,343,Www.Laburojoven.Com,Fundación Enseñá Por Argentina,442,Argentina,62,Buenos Aires,16,-34.6036844,-58.3815591,0-5 personas,2,1
+344443,344,Municipio Verde,Municipio Verde,443,Chile,42,Santiago,92,-33.4488897,-70.6692655,6-10 personas,2,1
+345444,345,Datascópio E Cruza Dados,Associação Brasileira De Jornalismo Investigativo,444,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,6-10 personas,2,1
+346445,346,Pasameeldato.Com - Escuela De Dateras Ciudadanas,Fundacion Multitudes,445,Chile,42,Santiago,92,-33.4488897,-70.6692655,26-50 personas,1,1
+346446,346,Pasameeldato.Com - Escuela De Dateras Ciudadanas,Fundacion Girls In Tech Chile,446,Chile,42,Santiago,92,-33.4488897,-70.6692655,11-25 personas,2,1
+347447,347,Guanadata 2.0,La Voz De Guanacaste,447,Costa Rica,78,Nicoya,69,9.9590676,-85.354965,11-25 personas,2,1
+348448,348,El Hospital A Tu Servicio ,Centro De Promoción En Salud Y Asistencia Familiar (Ceprosaf),448,Honduras,82,La Ceiba,46,15.770288,-86.7919009,6-10 personas,3,1
+349449,349,Gagpol Colombia,Corporación Red Somos,449,Colombia,35,Bogotá,13,4.7109886,-74.072092,0-5 personas,3,1
+350450,350,México Checa,13 Media Sc,450,México,51,Monterrey,65,25.6866142,-100.3161126,6-10 personas,3,1
+351451,351,Bolivia Tech Hub Collaborative,Acm - Sim,451,Bolivia,77,La Paz,48,-16.489689,-68.1192936,0-5 personas,1,1
+352452,352,Municipio Transparente Y Participativo,Delpuerto Comunicaciones ,452,Chile,42,Valparaíso,105,-33.047238,-71.6126885,0-5 personas,3,1
+353453,353,Atentomuni,Dsarhoya Spa,453,Chile,42,Santiago,92,-33.4488897,-70.6692655,0-5 personas,3,1
+354454,354,Co-Creá Tu Ciudad,Atlas Smart Cities,454,Argentina,62,Buenos Aires,16,-34.6036844,-58.3815591,0-5 personas,3,1
+355456,355,Portal De Transparencia De Gastos De Gobiernos Locales (Subnacionales) + Engage Cívico,Datos Concepcion,456,Argentina,62,Concepción del Uruguay,24,-32.4845349,-58.2321416,11-25 personas,2,1
+355457,355,Portal De Transparencia De Gastos De Gobiernos Locales (Subnacionales) + Engage Cívico,"Municipalidad De Concepción Del Uruguay, Dirección De Control Del Gasto",457,Argentina,62,Concepción del Uruguay,24,-32.4845349,-58.2321416,51-100 personas,2,1
+355458,355,Portal De Transparencia De Gastos De Gobiernos Locales (Subnacionales) + Engage Cívico,Asociación Pro Arte,458,Argentina,62,Concepción del Uruguay,24,-32.4845349,-58.2321416,0-5 personas,2,1
+355459,355,Portal De Transparencia De Gastos De Gobiernos Locales (Subnacionales) + Engage Cívico,Subsidios Claros,459,Uruguay,55,Paysandú,74,-32.2706789,-58.081134,26-50 personas,2,1
+356460,356,Red Social De Sustentabilidad,Fundación Naturaleza Para El Futuro (Funafu),460,Argentina,62,Buenos Aires,16,-34.6036844,-58.3815591,6-10 personas,1,1
+357461,357,El Mirador De Salud Sexual Y Reproductiva,Fundación Huésped,461,Argentina,62,Buenos Aires,16,-34.6036844,-58.3815591,0-5 personas,1,1
+358462,358,Novas Técnicas Para Monitoramento De Sistemas Produtivos Agroecológicos Com Participação Comunitária,Centro De Estudos Avançados De Promoção Social E Ambiental - Ceaps / Projeto Saúde & Alegria,462,Brasil,57,Santarém,91,-2.4506291,-54.7009228,26-50 personas,3,1
+35926,359,México En Datos,Gobierno Fácil,26,México,51,Ciudad de México,22,19.4326077,-99.133208,11-25 personas,3,1
+360463,360,Portal Web Contraloria Ciudadana Puebla Para La Denuncia,Red Consejo Ciudadano A La Contraloria A.C.,463,México,51,Ciudad de México,22,19.4326077,-99.133208,11-25 personas,1,1
+361464,361,La Caza Legislativa,Periódico El Faro,464,El Salvador,79,San Salvador,89,13.6929403,-89.2181911,6-10 personas,1,1
+36285,362,Urbem - Urbem.Digital,Cívica Digital,85,México,51,Ciudad de México,22,19.4326077,-99.133208,6-10 personas,2,1
+363465,363,Intercom,Mgov Brasil,465,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,0-5 personas,2,1
+364392,364,Observatorio De Prisiones,Visual Reporting Technologies,392,México,51,Ciudad de México,22,19.4326077,-99.133208,0-5 personas,2,1
+364466,364,Observatorio De Prisiones,Documenta: Análisis Y Acción Para La Justicia Social A.C.,466,México,51,Ciudad de México,22,19.4326077,-99.133208,11-25 personas,2,1
+365467,365,Hacia El Empoderamiento De Nuestros Derechos Digitales A Través De La Participación Ciudadana Y El Debate Público.,Tedic,467,Paraguay,85,Asunción,6,-25.2637399,-57.575926,101-500 personas,3,1
+366110,366,Espantacacos,Jóvenes Contra La Violencia/Centroamérica,110,Guatemala,80,Guatemala,36,14.6349149,-90.5068824,6-10 personas,1,1
+367468,367,¿Quiénmerepresenta?,Quiénmerepresenta,468,México,51,Oaxaca,71,17.0542297,-96.7132304,11-25 personas,2,1
+368469,368,Mucha Nota,Cemoplaf,469,Ecuador,54,Quito,80,-0.1806532,-78.4678382,0-5 personas,2,1
+369472,369,Plataforma Brasil Compra & Cidadão Fiscaliza,Faculdade Latino-Americana De Ciências Sociais (Flacso),472,Brasil,57,Brasilia,14,-15.826691,-47.9218204,6-10 personas,1,1
+369181,369,Plataforma Brasil Compra & Cidadão Fiscaliza,Hacklab Serviços De Tecnologia Ltda.,181,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,11-25 personas,1,1
+369470,369,Plataforma Brasil Compra & Cidadão Fiscaliza,Instituto Ecoar Para A Cidadania,470,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,0-5 personas,1,1
+369471,369,Plataforma Brasil Compra & Cidadão Fiscaliza,"Alampyme Br - Associação Latinoamericana De Micro, Pequenas E Médias Empresas Capítulo Brasil",471,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,6-10 personas,1,1
+370473,370,Chatbot Cívico Para El Fortalecimiento De La Gestión De Denuncias Ciudadanas En La Municipalidad De Quetzaltenango,Asociación Civil Guatecambia,473,Guatemala,80,Guatemala,36,14.6349149,-90.5068824,0-5 personas,1,1
+371306,371,Plataforma De Rendición De Cuentas De Servidores Públicos,"Campaña Global Por La Libertad De Expresión A19, A.C. ",306,México,51,Ciudad de México,22,19.4326077,-99.133208,0-5 personas,2,1
+372474,372,Parapapapp,Parapapapp Sas,474,Colombia,35,Bucaramanga,15,7.119349,-73.1227416,101-500 personas,2,1
+373475,373,Textool: Acceso Y Comprension Efectiva De Textos Sociales,Artnumerica ,475,Chile,42,Santiago,92,-33.4488897,-70.6692655,0-5 personas,1,1
+374476,374,Petgram,Ea Tech,476,México,51,Monterrey,65,25.6866142,-100.3161126,0-5 personas,1,1
+375477,375,Medata,Corporación Ruta N,477,Colombia,35,Medellín,62,6.244203,-75.5812119,6-10 personas,1,1
+376478,376,Boonited,Todavia No Fue Creada Una Empresa,478,Brasil,57,Florianopolis,34,-27.5948698,-48.5482195,0-5 personas,1,1
+377479,377,Innovación Y Apertura En Las Políticas Públicas (Innovapp),Democracia & Desarrollo Internacional (D&D Internacional),479,Perú,25,Lima,51,-12.0463731,-77.042754,0-5 personas,1,1
+378480,378,Quiero Mi Guatemala Transparente,Unidad Positiva Para El Desarrollo Ciudadano - Updc,480,Guatemala,80,Guatemala,36,14.6349149,-90.5068824,0-5 personas,1,1
+379481,379,Asociación Civil Ernesto Shneider Troller,Asociación Civil Ernesto Shneider Troller,481,Guatemala,80,Guatemala,36,14.6349149,-90.5068824,6-10 personas,1,1
+380482,380,Verto App,Verto Technology Corp,482,Guatemala,80,Guatemala,36,14.6349149,-90.5068824,6-10 personas,1,1
+381483,381,Opendataplus (Od+),Iuristech Solutions,483,El Salvador,79,San Salvador,89,13.6929403,-89.2181911,6-10 personas,4,1
+382484,382,Fundación La Network,Fundación La Network,484,Colombia,35,Medellín,62,6.244203,-75.5812119,6-10 personas,4,1
+383485,383,Crear Un Centro De Atencion Ciudadana Online Y Semipresencial,Transformación De Obreros Y Técnicos Esperanza De México Totem A.C,485,México,51,Monterrey,65,25.6866142,-100.3161126,0-5 personas,4,1
+384487,384,"Blockchain, Transparencia Y Servicios Públicos ",Mismatica Management (Sistemas De Gestión Mismatica Chile Limitada),487,Argentina,62,Buenos Aires,16,-34.6036844,-58.3815591,0-5 personas,1,1
+384486,384,"Blockchain, Transparencia Y Servicios Públicos ",Prince Consulting (Kmt Business Education Sa),486,Chile,42,Las Condes,50,-33.3989812,-70.5573124,6-10 personas,4,1
+385488,385,Kmesafe,Youniversys Srl,488,República Dominicana,89,Santo Domingo,94,18.4860575,-70.017052,0-5 personas,1,1
+386489,386,Pleno Ciudadano,Internet Of Government (Iog),489,México,51,Ciudad de México,22,19.4326077,-99.133208,0-5 personas,1,1
+387171,387,Potenciando Una Comunidad De Datos Para El Desarrollo Sostenible En Perú,Ciudadanos Al Día ,171,Perú,25,Lima,51,-12.0463731,-77.042754,6-10 personas,1,1
+388490,388,Civics,Vivero De Iniciativas Ciudadanas,490,Otro,90,Madrid,57,29.9510658,-90.0715323,6-10 personas,1,1
+389175,389,Operación Serenata De Amor,Open Knowledge Brasil,175,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,6-10 personas,1,1
+390491,390,Soy Vecino ,Centro Eugenio Garza Sada,491,México,51,Monterrey,65,25.6866142,-100.3161126,11-25 personas,2,1
+391492,391,App Para La Inclusión Y El Respeto A La Sociedad Civil,Redlad ,492,Otro,90,Berkeley,12,37.8715926,-122.272747,6-10 personas,1,3
+392493,392,Tecnología Social,Fundación Ciencias De La Documentación,493,Otro,90,Panamá,73,8.9823792,-79.5198696,6-10 personas,1,3
+393494,393,Bicimapa App ,Centro Bicicultura,494,Chile,42,Santiago,92,-33.4488897,-70.6692655,0-5 personas,1,3
+394495,394,Congreso Público: Tecnología Cívica Para Una Democracia Inclusiva,Exxact Negocios Digitales Spa,495,Chile,42,Santiago,92,-33.4488897,-70.6692655,0-5 personas,1,1
+394496,394,Congreso Público: Tecnología Cívica Para Una Democracia Inclusiva,Congreso Público,496,Chile,42,Santiago,92,-33.4488897,-70.6692655,0-5 personas,1,1
+395497,395,Proyecto  De  Integracion  Comunitaria ,Ideales Soluciones  Sociales,497,República Dominicana,89,Distrito Nacional,31,18.4860575,-69.9312117,6-10 personas,4,1
+396498,396,Onesmart Technology,Onesmart Technology Sa De Cv,498,México,51,Monterrey,65,25.6866142,-100.3161126,11-25 personas,4,1
+397499,397,Escuadrón Supercívico,Fáctico Periodismo Móvil,499,México,51,Managua ,58,12.1149926,-86.2361744,11-25 personas,4,1
+398500,398,Red De Activistas Ciudadanos Por Los Derechos Humanos - Activismo Digital,Centro De Justicia Y Paz - Cepaz,500,Venezuela,87,Caracas,20,10.4805937,-66.9036063,0-5 personas,1,1
+399501,399,Tengo La Palabra,Atix Labs Srl,501,Argentina,62,Buenos Aires,16,-34.6036844,-58.3815591,0-5 personas,1,1
+400502,400,Politeia Y Control Social,Corporación Programa De Desarrollo Para La Paz,502,Colombia,35,La Dorada,47,5.472709,-74.667984,11-25 personas,1,1
+401503,401,El Presupuesto Comunitario,Committee For A Better New Orleans/Comité Por Una Mejor Nueva Orleans ,503,Otro,90,New Orleans,68,29.9510658,-90.0715323,11-25 personas,1,1
+402505,402,Civic Backoffice: Plataforma De Gestión Semi-Automática De La Innovación Pública Y La Participación Ciudadana,"Social Apps Lab, University Of California, Berkeley",505,Otro,90,Berkeley,12,37.8715926,-122.272747,26-50 personas,1,1
+403507,403,Yecas,Yecas,507,Argentina,62,Mendoza,63,-32.8894587,-68.8458386,0-5 personas,1,1
+404508,404,Mapa Cívico Nicaragua,Fundación Grupo Cívico Ética Y Transparencia (Eyt),508,Nicaragua,83,Managua ,58,12.1149926,-86.2361744,6-10 personas,1,1
+404509,404,Mapa Cívico Nicaragua,Kronoscode,509,Nicaragua,83,Managua ,58,12.1149926,-86.2361744,11-25 personas,1,1
+40593,405,Chequeado,Chequeado,93,Argentina,62,Buenos Aires,16,-34.6036844,-58.3815591,,1,1
+40679,406,Caminos De La Villa,Wingu,79,Argentina,62,Buenos Aires,16,-34.6036844,-58.3815591,,1,1
+40694,406,Caminos De La Villa,ACIJ,94,Argentina,62,Buenos Aires,16,-34.6036844,-58.3815591,,1,1
+406518,406,Caminos De La Villa,Avina,518,Argentina,62,Buenos Aires,16,-34.6036844,-58.3815591,,1,1
+407581,407,Open Knowledge Argentina,Open Knowledge,581,Argentina,62,Buenos Aires,16,-34.6036844,-58.3815591,,1,1
+408399,408,Democracy Os,Democracia En Red,399,Argentina,62,Buenos Aires,16,-34.6036844,-58.3815591,,2,1
+409399,409,Partido De La Red,Democracia En Red,399,Argentina,62,Buenos Aires,16,-34.6036844,-58.3815591,,2,1
+41095,410,La Nacion Data,Diario La Nación,95,Argentina,62,Buenos Aires,16,-34.6036844,-58.3815591,,1,1
+411530,411,Congreso Interactivo,Congreso Interactivo,530,Argentina,62,Buenos Aires,16,-34.6036844,-58.3815591,,1,1
+41294,412,Concursos Transparentes,ACIJ,94,Argentina,62,Buenos Aires,16,-34.6036844,-58.3815591,,1,1
+412513,412,Concursos Transparentes,Ada,513,Argentina,62,Buenos Aires,16,-34.6036844,-58.3815591,,1,1
+41379,413,Wingu,Wingu,79,Argentina,62,Buenos Aires,16,-34.6036844,-58.3815591,,1,1
+4140,414,Red De Transparencia Legislativa Argentina,,0,Argentina,62,Buenos Aires,16,-34.6036844,-58.3815591,,1,1
+41594,415,Dbjj Abiertas,ACIJ,94,Argentina,64,Buenos Aires,16,-34.6036844,-58.3815591,,2,1
+41595,415,Dbjj Abiertas,Diario La Nación,95,Argentina,62,Buenos Aires,16,-34.6036844,-58.3815591,,1,1
+415334,415,Dbjj Abiertas,Directorio Legislativo,334,Argentina,63,Buenos Aires,16,-34.6036844,-58.3815591,,2,1
+415592,415,Dbjj Abiertas,Poder Ciudadano,592,Argentina,65,Buenos Aires,16,-34.6036844,-58.3815591,,1,1
+41693,416,Dato Duro,Chequeado,93,Argentina,62,Buenos Aires,16,-34.6036844,-58.3815591,,1,1
+417565,417,Cargografias,Iniciativa,565,Argentina,62,Buenos Aires,16,-34.6036844,-58.3815591,,1,1
+41895,418,Voz Data,Diario La Nación,95,Argentina,62,Buenos Aires,16,-34.6036844,-58.3815591,,1,1
+4190,419,Directorio Legislativo,,0,Argentina,62,Buenos Aires,16,-34.6036844,-58.3815591,,1,1
+42094,420,ACIJ,ACIJ,94,Argentina,62,Buenos Aires,16,-34.6036844,-58.3815591,,1,1
+421592,421,Poder Ciudadano,Poder Ciudadano,592,Argentina,62,Buenos Aires,16,-34.6036844,-58.3815591,,1,1
+4220,422,Diario La Nacion,,0,Argentina,62,Buenos Aires,16,-34.6036844,-58.3815591,,1,1
+4230,423,Fundaciì_N Democracia En Red,,0,Argentina,62,Buenos Aires,16,-34.6036844,-58.3815591,,1,1
+424607,424,Get In The Ring Apps,Tigo,607,Bolivia,77,La Paz,48,-16.489689,-68.1192936,,2,1
+425567,425,Lapublica.Org.Bo,La Publica,567,Bolivia,77,La Paz,48,-16.489689,-68.1192936,,2,1
+426557,426,Red Libre De Villa Coronilla En Cochabamba Barriohacker.Net,Hacklab Cochabamba,557,Bolivia,77,Cochabamba,23,-17.413977,-66.165321,,1,1
+427558,427,Hack Hakers La Paz,Hacks Hackers,558,Bolivia,77,La Paz,48,-16.489689,-68.1192936,,2,1
+428519,428,Bolivia Mapa De Inverson Publica,Banco Mundial,519,Bolivia,77,La Paz,48,-16.489689,-68.1192936,,3,4
+428567,428,Bolivia Mapa De Inverson Publica,Ministerios De Planificacion,567,Bolivia,77,La Paz,48,,,,2,4
+429560,429,100 Jovenes Periodistas Todo Bolivia - Periodista Virtual,Hivos,560,Bolivia,77,La Paz,48,-16.489689,-68.1192936,,4,4
+429590,429,100 Jovenes Periodistas Todo Bolivia - Periodista Virtual,Periodista Virtual ,590,Bolivia,77,La Paz,48,,,,1,4
+430522,430,Proyecto De Knowledge Sharing Cicatal,Cicatal,522,Bolivia,77,La Paz,48,,,,2,2
+4310,431,Hacklab Cochabamba,,0,Bolivia,77,Cochabamba,23,-17.413977,-66.165321,,1,2
+4320,432,Ministerio De Planificación,,0,Bolivia,77,La Paz,48,-16.489689,-68.1192936,,1,1
+4330,433,Periodista Virtual,,0,Bolivia,77,La Paz,48,-16.489689,-68.1192936,,3,1
+4340,434,Tigo,,0,Bolivia,77,La Paz,48,-16.489689,-68.1192936,,1,1
+435576,435,Olhoneles.Org,Olhoneles,576,Brasil,57,Minas,113,-16.20639,44.43333,,1,1
+436579,436,Culturadered,Ong Para Iberoamerica,579,Brasil,57,Brasilia,14,-15.826691,-47.9218204,,3,4
+437538,437,De Olhos Nas Metas,De Olhos Nas Metas,538,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,,1,4
+438575,438,Olabi,Olabi,575,Brasil,57,Río de Janeiro,82,-22.9068467,-43.1728965,,1,4
+439553,439,Dataviva.Info,Gobierno De Minas,553,Brasil,57,Minas,113,-16.20639,44.43333,,2,4
+440175,440,Escola De Dados,Open Knowledge Brasil,175,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,,2,1
+441569,441,Midia Ninja,Ninja,569,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,,1,2
+442515,442,Politica Sporte Club,Arede,515,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,,1,2
+442593,442,Politica Sporte Club,Portal Brasil,593,Brasil,58,São Paulo,97,-23.5505199,-46.6333094,,1,1
+442604,442,Politica Sporte Club,Softex,604,Brasil,59,São Paulo,97,-23.5505199,-46.6333094,,1,1
+4430,443,Transparencia Hacker,,0,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,,1,1
+444527,444,Colab,Colab,527,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,,1,1
+445175,445,Open Knowledge Brasil,Open Knowledge Brasil,175,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,,1,1
+4460,446,Fora Do Eixo,,0,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,,1,4
+4470,447,Cuidando Do Meu Barrio,,0,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,,1,4
+448578,448,Omnibus Hacker,Omnibus Hacker,578,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,,2,4
+449175,449,Open Spending Brasil,Open Knowledge Brasil,175,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,,1,4
+450611,450,Plataforma Tecnolì_Gica De Monitoramento De Indicadores (Iota),Programa Cidades Sustentaeis,611,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,,1,1
+4510,451,Guia Cultural Do Brasil,,0,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,,1,1
+4520,452,Mapeo Digital Liderador Por Jovenes,,0,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,,1,2
+4530,453,Portal Brasil,,0,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,,1,2
+4540,454,Softex,,0,Brasil,57,São Paulo,97,-23.5505199,-46.6333094,,1,1
+455602,455,Code For The Caribbean,Slashroots,602,Caribe,90,Caribe,115,,,,1,1
+456601,456,Developing The Caribean,Regional,601,Caribe,90,Caribe,115,,,,1,3
+457532,457,Infolobby,Consejo De La Transparencia,532,Chile,42,Santiago ,92,-33.4488897,-70.6692655,,1,3
+458524,458,Fixmystreet,Ciudad Viva,524,Chile,42,Santiago ,92,-33.4488897,-70.6692655,,1,3
+459525,459,Hay Acuerdos,Ciudadano Inteligente,525,Chile,42,Santiago ,92,-33.4488897,-70.6692655,,1,1
+460525,460,Congreso Abierto Chile,Ciudadano Inteligente,525,Chile,42,Santiago ,92,-33.4488897,-70.6692655,,1,1
+461520,461,Chicas Poderosas Chile,Chicas Poderosas,520,Chile,42,Santiago ,92,-33.4488897,-70.6692655,,1,1
+462525,462,Dichoalhecho,Ciudadano Inteligente,525,Chile,42,Santiago,92,-33.4488897,-70.6692655,,1,1
+462546,462,Dichoalhecho,Facultad De Comunicaciones De La Universidad Pontifica De Chile,546,Chile,42,Santiago ,92,-33.4488897,-70.6692655,,1,1
+463532,463,Portal De Transparencia,Consejo De La Transparencia,532,Chile,42,Santiago ,92,-33.4488897,-70.6692655,,1,1
+464532,464,Laboratorio De Innovaciì_N De Transparencia,Consejo De La Transparencia,532,Chile,42,Santiago ,92,-33.4488897,-70.6692655,,1,1
+465525,465,Ciudadano Inteligente,Ciudadano Inteligente,525,Chile,42,Santiago ,92,-33.4488897,-70.6692655,,1,1
+4660,466,Ciudad Viva,,0,Chile,42,Santiago ,92,-33.4488897,-70.6692655,,1,1
+467546,467,Sin Nombre,Facultad De Comunicaciones De La Universidad Pontifica De Chile,546,Chile,42,Santiago ,92,-33.4488897,-70.6692655,,1,2
+4680,468,Igw/As Derechos Indigenas,,0,Chile,42,Santiago ,92,-33.4488897,-70.6692655,,1,2
+4690,469,Consejo De La Transparencia,,0,Chile,42,Santiago ,92,-33.4488897,-70.6692655,,2,1
+470566,470,Sispro,Ministerio De Salud,566,Colombia,35,Bogotá,13,,,,1,1
+471548,471,Sin Nombre,Fundacion Gobierno Abierto,548,Colombia,35,Bogotá,13,,,,5,1
+472551,472,Colombia En Linea,Gobierno De Colombia,551,Colombia,35,Bogotá,13,,,,5,1
+473609,473,Sinfonía Unicef,Unicef,609,Colombia,35,Bogotá,13,4.7109886,-74.072092,,1,1
+474561,474,Geocensos,Mapa,561,Colombia,35,Bogotá,13,4.7109886,-74.072092,,2,1
+475577,475,Yointervengo,Olinguito,577,Colombia,35,Bogotá,13,4.7109886,-74.072092,,1,1
+476559,476,Hack Hakers Bogota,Hacks/Hackers Bogota,559,Colombia,35,Bogotá,13,4.7109886,-74.072092,,1,1
+477562,477,Mapa De Medios,Mapa De Medios,562,Colombia,35,Bogotá,13,4.7109886,-74.072092,,1,1
+478542,478,Sin Nombre,Enredo,542,Colombia,35,Bogotá,13,4.7109886,-74.072092,,1,1
+479577,479,,Olinguito,577,Colombia,35,Bogotá,13,4.7109886,-74.072092,,1,1
+480516,480,,Arquitectura Expandida,516,Colombia,35,Bogotá,13,,,,1,1
+481552,481,Plataforma Nacional De Datos Abiertos Costa Rica,Gobierno De Costa Rica,552,Costa Rica,78,San José,87,-31.8970823,-61.8598807,,1,1
+482606,482,Epicentro ,Dal,606,Costa Rica,78,San José,87,-31.8970823,-61.8598807,,5,1
+483573,483,Ojo Al Voto,Ojo Al Voto,573,Costa Rica,78,San José,87,-31.8970823,-61.8598807,,1,1
+484597,484,Eyeoncuba.Org,People In Need,597,Cuba,88,Havana,116,,,,1,1
+485582,485,,Open Knowledge Ecuador,582,Ecuador,54,Quito,80,-0.1806532,-78.4678382,,1,1
+486547,486,Decretazo.Ec,Fundación Ciudadania Y Desarrollo,547,Ecuador,54,Quito,80,-0.1806532,-78.4678382,,1,2
+487570,487,Observatorio.Eq,Observatorio Ciudadano De La Educacion,570,Ecuador,54,Quito,80,-0.1806532,-78.4678382,,1,2
+488536,488,Creative Commons Ecuador,Creative Commons,536,Ecuador,54,Quito,80,-0.1806532,-78.4678382,,1,1
+489166,489,,Fundapi,166,Ecuador,54,Quito,80,,,,2,1
+490616,490,Datos Abiertos Quito,Gobierno De Quito,616,Ecuador,54,Quito,80,-0.1806532,-78.4678382,,1,1
+4910,491,Observatorio Ciudadano De La Educacion,,0,Ecuador,54,Quito,80,-0.1806532,-78.4678382,,1,1
+49293,492,Dato Duro El Salvador,Chequeado,93,El Salvador,79,San Salvador,89,13.6929403,-89.2181911,,1,1
+492541,492,Dato Duro El Salvador,El Faro,541,El Salvador,79,San Salvador,89,13.6929403,-89.2181911,,1,1
+493574,493,Datos El Salvador,Okfn El Salvador,574,El Salvador,79,San Salvador,89,13.6929403,-89.2181911,,1,1
+494541,494,Sin Nombre,El Faro,541,El Salvador,79,San Salvador,89,13.6929403,-89.2181911,,1,1
+495600,495,Congreso Abierto Guatemala,Red Ciudadana,600,Guatemala,80,Guatemala,36,14.6349149,-90.5068824,,1,1
+496600,496,Espanta Cacos,Red Ciudadana,600,Guatemala,80,Guatemala,36,14.6349149,-90.5068824,,1,1
+497568,497,Galileo.Edu Hackathon,Municipalidad De Guatemala,568,Guatemala,80,Guatemala,36,14.6349149,-90.5068824,,1,1
+498610,498,Incytde.Org,Universidad Rafael Landivar,610,Guatemala,80,Guatemala,36,14.6349149,-90.5068824,,1,1
+499385,499,Congreso En Datos,Plaza Pública ,385,Guatemala,80,Guatemala,36,14.6349149,-90.5068824,,1,2
+500385,500,Mapas Y Datos,Plaza Pública ,385,Guatemala,80,Guatemala,36,14.6349149,-90.5068824,,1,2
+501531,501,Congreso Transparente,Congreso Transparente,531,Guatemala,80,Guatemala,36,14.6349149,-90.5068824,,1,1
+502385,502,Plaza Publica,Plaza Pública ,385,Guatemala,80,Guatemala,36,14.6349149,-90.5068824,,2,1
+503603,503,Harvest Api,Code For The Caribbean,603,Jamaica,97,Kingston,117,,,,2,1
+503602,503,Harvest Api,Slashroots,602,Caribe,90,Caribe,115,,,,1,1
+504602,504,Sin Nombre,Slashroots,602,Jamaica,97,Kingston,117,,,,1,1
+505587,505,,Caribbean Open Institute,587,Jamaica,97,Kingston,117,,,,1,2
+5062,506,Explica.La/Ley,Codeando Mexico,2,México,51,Ciudad de México,22,19.4326077,-99.133208,,1,2
+5072,507,Urbem: Reportes Ciudadanos,Codeando Mexico,2,México,51,Ciudad de México,22,19.4326077,-99.133208,,1,1
+508591,508,Así Estamos Juarez,Plan Estragico De Juarez,591,México,51,Ciudad Juarez,114,19.0779,-103.8846,,1,1
+509591,509,Regidor 19,Plan Estragico De Juarez,591,México,51,Ciudad Juarez,114,19.0779,-103.8846,,1,1
+510514,510,Sin Nombre,"Alcalde, Como Vamos?",514,México,51,Monterrey,65,,,,1,1
+511549,511,Gobiernateac,Gobiernateac,549,México,51,Ciudad de México,22,19.4326077,-99.133208,,1,1
+512564,512,Mexico Informate,Mexico Informate,564,México,51,Ciudad de México,22,19.4326077,-99.133208,,1,1
+51324,513,Quien Es Quien Wiki,Poder,24,México,51,Ciudad de México,22,19.4326077,-99.133208,,1,1
+514599,514,Biblioteca Digital Campechana Mental,Rancho Electronico ,599,México,51,Ciudad de México,22,,,,1,1
+5152,515,Datamx.Io,Codeando Mexico,2,México,51,Ciudad de México,22,19.4326077,-99.133208,,1,1
+516594,516,Estrategia Digital Nacional De Datos Abiertos,Presidencia,594,México,51,Ciudad de México,22,19.4326077,-99.133208,,1,2
+517540,517,Datos Muerte Poblacion Callejera,El Caracol,540,México,51,Ciudad de México,22,19.4326077,-99.133208,,1,2
+518540,518,Mujeres E Infancia Callejera Más Allá De Los Datos,El Caracol,540,México,51,Ciudad de México,22,19.4326077,-99.133208,,1,1
+5190,519,Migrantic,,0,México,51,Ciudad de México,22,19.4326077,-99.133208,,1,1
+520608,520,Tpp,Tribunal Permanente De Los Pueblos,608,México,51,Ciudad de México,22,19.4326077,-99.133208,,1,1
+521538,521,Colaborativomx,Colaborativomx,538,México,51,Ciudad de México,22,19.4326077,-99.133208,,1,3
+522599,522,Rancho Electrìoico,Rancho Electronico ,599,México,51,Ciudad de México,22,19.4326077,-99.133208,,1,3
+523572,523,Oeste.Mx,Oeste.Mx,572,México,51,Ciudad de México,22,19.4326077,-99.133208,,1,3
+524550,524,Ley De Gobierno Abierto Cdmx,Gobierno Abierto Cdmx,550,México,51,Ciudad de México,22,19.4326077,-99.133208,,1,1
+5252,525,Sin Nombre,Codeando Mexico,2,México,51,Ciudad de México,22,19.4326077,-99.133208,,1,1
+526568,526,Codigocdmx,Labplc,568,México,51,Ciudad de México,22,19.4326077,-99.133208,,1,1
+527568,527,Viztec Cdmx,Labplc,568,México,51,Ciudad de México,22,19.4326077,-99.133208,,1,1
+528594,528,Od500Mx.,Presidencia,594,México,51,Ciudad de México,22,19.4326077,-99.133208,,1,1
+529523,529,Biiacs,Cide,523,México,51,Ciudad de México,22,19.4326077,-99.133208,,1,1
+530541,530,72 Migrantes,El Faro,541,México,51,Ciudad de México,22,19.4326077,-99.133208,,1,1
+531569,531,Periodismo Libre,Ladobe,569,México,51,Puebla,78,19.0414398,-98.2062727,,1,1
+5320,532,Salud Migrante,,0,México,51,Ciudad de México,22,19.4326077,-99.133208,,2,1
+53353,533,Sin Nombre,Socialtic,53,México,51,Ciudad de México,22,19.4326077,-99.133208,,1,2
+534564,534,Ley De Transparencia Y Acceso A La Info Df,Infodf,564,México,51,Ciudad de México,22,19.4326077,-99.133208,,1,2
+535562,535,Sin Nombre,Ifai,562,México,51,Ciudad de México,22,19.4326077,-99.133208,,4,2
+53624,536,Sin Nombre,Poder,24,México,51,Ciudad de México,22,19.4326077,-99.133208,,1,2
+537523,537,Sin Nombre,Cide,523,México,51,Ciudad de México,22,19.4326077,-99.133208,,3,1
+538618,538,Sin Nombre,Plan Estrategico De Juarez,618,México,51,Ciudad Juarez,114,19.0779,-103.8846,,1,2
+539540,539,Sin Nombre,El Caracol,540,México,51,Ciudad de México,22,19.4326077,-99.133208,,1,2
+540568,540,Sin Nombre,Labplc,568,México,51,Ciudad de México,22,19.4326077,-99.133208,,1,1
+541569,541,Sin Nombre,Ladobe,569,México,51,Puebla,78,,,,1,1
+542513,542,Sin Nombre,Ada,513,Mundo,100,Mundo,118,,,,1,1
+543518,543,Sin Nombre,Avina,518,Mundo,100,Mundo,118,,,,1,1
+544518,544,Banco Mundial,Avina,518,Mundo,100,Mundo,118,,,,1,2
+545520,545,Sin Nombre,Chicas Poderosas,520,Mundo,100,Mundo,118,,,,1,2
+546157,546,Dal,Data Uruguay,157,Uruguay,56,Montevideo,66,-34.9011127,-56.1645314,0-5 personas,1,2
+547580,547,Unicef,Onu,580,Mundo,100,Mundo,118,,,,1,2
+548581,548,Sin Nombre,Open Knowledge Foundation,581,Mundo,100,Mundo,118,,,,1,1
+549584,549,Sin Nombre,Openstreetmap,584,Mundo,100,Mundo,118,,,,1,4
+5500,550,Arede,,0,Mundo,100,Mundo,118,,,,3,4
+55148,551,Sin Nombre,Cainfo,48,Mundo,100,Mundo,118,,,,1,4
+552536,552,Sin Nombre,Creative Commons,536,Mundo,100,Mundo,118,,,,3,1
+553622,553,Sin Nombre,Escuela De Datos,622,Mundo,100,Mundo,118,,,,3,1
+554623,554,Sin Nombre,Hacks Hackers,623,Mundo,100,Mundo,118,,,,1,1
+555560,555,Sin Nombre,Hivos,560,Mundo,100,Mundo,118,,,,1,1
+556622,556,Sin Nombre,Icfj,622,Mundo,100,Mundo,118,,,,1,1
+557623,557,Sin Nombre,Mysociety,623,Mundo,100,Mundo,118,,,,1,1
+558529,558,Grupo Informal De Creative Commons,Comunidades De Software Libre,529,Nicaragua,83,Managua,58,,,,1,1
+559526,559,Observatorio Sobre Los Derechos Humanos De La Niì±Ez Y Adolescencia Nicaragì_Ense,Codeni,526,Nicaragua,83,Managua,58,,,,1,1
+560585,560,Mapanica,Openstreetmap Nicaragua,585,Nicaragua,83,Managua,58,,,,1,1
+561529,561,Comunidades De Software Libre,Comunidades De Software Libre,529,Nicaragua,83,Managua,58,,,,,
+562561,562,Observatorio Virtual Nuestropresupuesto.Org,Ieepp,561,Nicaragua,83,Managua,58,12.1149926,-86.2361744,,,
+563588,563,Panadata,Gobierno De Panamá,588,Panamá,84,Panamá,73,,,,,
+564583,564,Opendata.Py,Opendata.Py,583,Paraguay,85,Asunción,6,-25.2637399,-57.575926,,1,1
+565467,565,Parlamento Abierto Py,Tedic,467,Paraguay,85,Asunción,6,-25.2637399,-57.575926,,1,0
+566517,566,Hack Hackers Asuncion,Hack Hackers Asuncion,517,Paraguay,85,Asunción,6,-25.2637399,-57.575926,,1,1
+567556,567,Hackalab Asuncion,Hacklab Asunción,556,Paraguay,85,Asunción,6,-25.2637399,-57.575926,,1,1
+568581,568,Open Knowledge Paraguay,Open Knowledge,581,Paraguay,85,Asunción,6,-25.2637399,-57.575926,,1,1
+569467,569,Tedic,Tedic,467,Paraguay,85,Asunción,6,-25.2637399,-57.575926,,1,1
+570537,570,Culturaperu.Org,Cultura Peru,537,Perú,25,Lima,51,-12.0463731,-77.042754,,1,1
+571518,571,Datea.Pe,Avina,518,Perú,25,Lima,51,-12.0463731,-77.042754,,1,1
+571566,571,Datea.Pe,La Factura,566,Perú,25,Lima,51,-12.0463731,-77.042754,,1,1
+572545,572,Escuela De Datos Peru,Escuela De Datos Peru,545,Perú,25,Lima,51,-12.0463731,-77.042754,,1,0
+573560,573,Limaio.Com,Lima I/O,560,Perú,25,Lima,51,-12.0463731,-77.042754,,1,1
+574563,574,Mascultura.Pe,Mas Cultura,563,Perú,25,Lima,51,-12.0463731,-77.042754,,1,0
+575555,575,Hack Hackers Lima,Hack Hackers Lima,555,Perú,25,Lima,51,-12.0463731,-77.042754,,1,1
+576539,576,Democraciadigital Peru,Democracia Digital,539,Perú,25,Lima,51,-12.0463731,-77.042754,,1,1
+577533,577,Convoca,Convoca,533,Perú,25,Lima,51,-12.0463731,-77.042754,,1,1
+578535,578,Corresponsales,Corresponsales,535,Perú,25,Lima,51,-12.0463731,-77.042754,,1,1
+579363,579,Ojo Pì¼Blico,Ojo Público,363,Perú,25,Lima,51,-12.0463731,-77.042754,,1,1
+5800,580,Memora Data,,0,Perú,25,Lima,51,-12.0463731,-77.042754,,1,1
+581595,581,Portal De Transparencia Estandar,Presidencia Del Consejo De Ministros,595,Perú,25,Lima,51,-12.0463731,-77.042754,,1,1
+582596,582,Promesometro,Proetica,596,Perú,25,Lima,51,-12.0463731,-77.042754,,1,1
+583565,583,Consulta Amigable,Ministerio De Economia De Peru,565,Perú,25,Lima,51,-12.0463731,-77.042754,,1,1
+584534,584,Mapa De Criminalizacion De La Protesta,Coordinadora Nacional De Derechos Humanos,534,Perú,25,Lima,51,-12.0463731,-77.042754,,1,1
+585571,585,Odpe.Pe,Odpe.Pe,571,Perú,25,Lima,51,-12.0463731,-77.042754,,1,1
+586586,586,Abre Puerto Rico,Abrepuertorico,586,Puerto Rico,86,San Juan,88,18.4655394,-66.1057355,,1,0
+587157,587,Data Uy,Data Uruguay,157,Uruguay,55,Montevideo,66,-34.9011127,-56.1645314,,1,0
+588565,588,Precios.Uy,Ministerio  De Economia,565,Uruguay,55,Montevideo,66,-34.9011127,-56.1645314,,1,1
+589157,589,Por Mi Barrio,Data Uruguay,157,Uruguay,55,Montevideo,66,-34.9011127,-56.1645314,,1,1
+590157,590,Mutualistas.Uy,Data Uruguay,157,Uruguay,55,Montevideo,66,-34.9011127,-56.1645314,,1,1
+590511,590,Mutualistas.Uy,180Data,511,Uruguay,55,Montevideo,66,-34.9011127,-56.1645314,,1,1
+591598,591,Parlamento En Tu Móvil,Que Hacen?: El Parlamento En Tu Movil,598,Uruguay,55,Montevideo,66,-34.9011127,-56.1645314,,1,1
+592563,592,Quien Paga,Independiente,563,Uruguay,55,Montevideo,66,-34.9011127,-56.1645314,,1,1
+593558,593,Hack Hackers Montevideo,Hack Hackers Montevideo,558,Uruguay,55,Montevideo,66,-34.9011127,-56.1645314,,1,1
+594589,594,Sudestada.Com.Uy,Periodico Sudestada,589,Uruguay,55,Montevideo,66,-34.9011127,-56.1645314,,1,1
+59548,595,Quesabes.Uy,Cainfo,48,Uruguay,55,Montevideo,66,-34.9011127,-56.1645314,,1,1
+595157,595,Quesabes.Uy,Data Uruguay,157,Uruguay,55,Montevideo,66,-34.9011127,-56.1645314,,1,1
+596521,596,Checkuy,Checkuy,521,Uruguay,55,Montevideo,66,-34.9011127,-56.1645314,,1,1
+597157,597,Bicentenario Uruguay,Data Uruguay,157,Uruguay,55,Montevideo,66,-34.9011127,-56.1645314,,1,1
+598511,598,Sin Nombre,180Data,511,Uruguay,55,Montevideo,66,-34.9011127,-56.1645314,,1,1
+600625,600,Sin Nombre,Open Data Venezuela,625,Venezuela,87,Caracas,20,10.4805937,-66.9036063,,1,1
+601605,601,Sumando Esfuerzos,Sumando Esfuerzos,605,,,,,,,,1,1
