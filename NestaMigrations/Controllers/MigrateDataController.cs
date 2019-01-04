@@ -845,5 +845,76 @@ namespace NestaMigrations.Controllers
 
             return i;
         }
+
+
+        [HttpGet("data-fixed-countries")]
+        public int DataFixedCountriesAbrelatam()
+        {
+            var rows = DataFixedService.ImportProjects();
+            var countries = rows.ToList();
+            int i = 0;
+
+            Dictionary<int, Country> dic = new Dictionary<int, Country>();
+
+            foreach (var country in countries)
+            {
+
+                int idCountry = 0;
+                if (Int32.TryParse(country.idCountry, out idCountry))
+                    dic.TryAdd(idCountry, new Country()
+                    {
+                        id = idCountry,
+                        name = country.country
+                    });
+                else
+                    Console.WriteLine($"COUNTRY WITHOUT ID {country.country}");
+                
+                i++;
+            }
+
+            this._context.Countries.AddRange(dic.Select(x => x.Value).ToList());
+            this._context.SaveChanges();
+            return i;
+        }
+
+        [HttpGet("data-fixed-cities")]
+        public int DataFixedCitiesAbrelatam()
+        {
+            var rows = DataFixedService.ImportProjects();
+            var cities = rows.ToList();
+            int i = 0;
+
+            Dictionary<int, CountryRegion> dic = new Dictionary<int, CountryRegion>();
+
+            foreach (var r in rows)
+            {
+                try
+                {
+                    int idCountry = Convert.ToInt32(r.idCountry);
+                    int idCity = Convert.ToInt32(r.idCity);
+                    decimal latitude = Convert.ToDecimal(r.latitude);
+                    decimal longitude = Convert.ToDecimal(r.longitude);
+
+                    dic.TryAdd(idCity, new CountryRegion()
+                    {
+                        id = idCity,
+                        countryID = idCountry,
+                        lat = latitude,
+                        lng = longitude,
+                        name = r.city
+                    });
+                }
+                catch (Exception)
+                {
+                    Console.WriteLine($"REGION ERROR {r.city}");
+                }
+
+                i++;
+            }
+
+            this._context.CountryRegions.AddRange(dic.Select(x => x.Value).ToList());
+            this._context.SaveChanges();
+            return i;
+        }
     }
 }
