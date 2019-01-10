@@ -918,7 +918,7 @@ namespace NestaMigrations.Controllers
         }
 
         [HttpGet("data-fixed-projects")]
-        public int DataFixedCitiesProjects()
+        public int DataFixedProjects()
         {
             var rows = DataFixedService.ImportProjects().ToList();
 
@@ -971,6 +971,66 @@ namespace NestaMigrations.Controllers
             }
 
             this._context.Projects.AddRange(dic.Select(x => x.Value).ToList());
+            this._context.SaveChanges();
+            return i;
+        }
+
+        [HttpGet("data-fixed-organisations")]
+        public int DataFixedOrganisations()
+        {
+            var rows = DataFixedService.ImportProjects().OrderBy(x => x.idOrg).ToList();
+
+            int i = 0;
+
+            Dictionary<int, Organisation> dic = new Dictionary<int, Organisation>();
+
+            foreach (var r in rows)
+            {
+                try
+                {
+                    int idOrganisation = Convert.ToInt32(r.idOrg);
+                    int idCountry = Convert.ToInt32(r.idCountry);
+                    int idCity = Convert.ToInt32(r.idCity);
+
+                    int count = 0;
+                    Int32.TryParse(r.projCount, out count);
+
+                    var x = dic.TryAdd(idOrganisation, new Organisation()
+                    {
+                        countryID = idCountry,
+                        countryRegionID = idCity,
+                        importID = idOrganisation.ToString(),
+                        description = r.nameOrg,
+                        id = idOrganisation,
+                        isPublished = true,
+                        isWaitingApproval = false,
+                        name = r.nameOrg,
+                        shortDescription = r.nameOrg,
+                        ownerID = 1,
+                        projectsCount = count,
+                        created = DateTime.Now,
+                        headerImage = "",
+                        logo = "",
+                        url = "",
+                        organisationSizeID = 0,
+                        organisationTypeID = 0,
+                        partnersCount = 0,
+                        startDate = DateTime.Now,
+                        address = ""
+                    });
+
+                    if (!x)
+                        Console.WriteLine(idOrganisation);
+                }
+                catch (Exception)
+                {
+                    Console.WriteLine($"PROJECT ERROR {r.nameInitiative}");
+                }
+
+                i++;
+            }
+
+            this._context.Organisations.AddRange(dic.Select(x => x.Value).ToList());
             this._context.SaveChanges();
             return i;
         }
