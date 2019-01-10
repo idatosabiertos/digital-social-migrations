@@ -868,7 +868,7 @@ namespace NestaMigrations.Controllers
                     });
                 else
                     Console.WriteLine($"COUNTRY WITHOUT ID {country.country}");
-                
+
                 i++;
             }
 
@@ -913,6 +913,64 @@ namespace NestaMigrations.Controllers
             }
 
             this._context.CountryRegions.AddRange(dic.Select(x => x.Value).ToList());
+            this._context.SaveChanges();
+            return i;
+        }
+
+        [HttpGet("data-fixed-projects")]
+        public int DataFixedCitiesProjects()
+        {
+            var rows = DataFixedService.ImportProjects().ToList();
+
+            int i = 0;
+
+            Dictionary<int, Project> dic = new Dictionary<int, Project>();
+
+            foreach (var r in rows)
+            {
+                try
+                {
+                    int idProject = Convert.ToInt32(r.idInitiative);
+                    int idCountry = Convert.ToInt32(r.idCountry);
+                    int idCity = Convert.ToInt32(r.idCity);
+
+                    int count = 0;
+                    Int32.TryParse(r.orgCount, out count);
+
+                    var x = dic.TryAdd(idProject, new Project()
+                    {
+                        countryID = idCountry,
+                        countryRegionID = idCity,
+                        importID = idProject.ToString(),
+                        description = r.nameInitiative,
+                        id = idProject,
+                        isPublished = true,
+                        lastUpdate = DateTime.Now,
+                        isWaitingApproval = false,
+                        name = r.nameInitiative,
+                        shortDescription = r.nameInitiative,
+                        ownerID = 1,
+                        organisationsCount = count,
+                        status = "closed",
+                        created = DateTime.Now,
+                        headerImage = "",
+                        logo= "",
+                        socialImpact = "",
+                        url = ""
+                    });
+
+                    if(!x)
+                        Console.WriteLine(idProject);
+                }
+                catch (Exception)
+                {
+                    Console.WriteLine($"PROJECT ERROR {r.nameInitiative}");
+                }
+
+                i++;
+            }
+
+            this._context.Projects.AddRange(dic.Select(x => x.Value).ToList());
             this._context.SaveChanges();
             return i;
         }

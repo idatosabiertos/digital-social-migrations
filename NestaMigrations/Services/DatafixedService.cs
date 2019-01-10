@@ -26,6 +26,7 @@ namespace NestaMigrations.Services
                 fileRows = csv.GetRecords<Merge6DecemberImpactTagsProjects>().ToList();
             }
 
+
             return fileRows;
         }
     }
