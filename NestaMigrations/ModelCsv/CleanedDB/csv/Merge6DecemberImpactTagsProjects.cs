@@ -21,5 +21,29 @@ namespace NestaMigrations.ModelCsv.CleanedDB.csv
         public string rangoEmpleados { get; set; }
         public string orgCount { get; set; }
         public string projCount { get; set; }
+
+        public int GetOrgSize() {
+            switch (this.rangoEmpleados)
+            {
+                case "0-5 personas":
+                    return 0;
+                case "6-10 personas":
+                    return 1;
+                case "11-25 personas":
+                    return 2;
+                case "26-50 personas":
+                    return 3;
+                case "51-100 personas":
+                    return 4;
+                case "101-500 personas":
+                    return 5;
+                case "501-1000 personas":
+                    return 6;
+                case "> 1000 personas":
+                    return 7;
+                default:
+                    return 0;
+            }
+        }
     }
 }

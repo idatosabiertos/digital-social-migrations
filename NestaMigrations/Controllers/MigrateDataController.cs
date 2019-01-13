@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using NestaMigrations.Model;
 using NestaMigrations.ModelCsv.Abrelatam;
+using NestaMigrations.ModelCsv.CleanedDB.csv;
 using NestaMigrations.Services;
 using Newtonsoft.Json;
 using static Microsoft.AspNetCore.Hosting.Internal.HostingApplication;
@@ -978,12 +979,16 @@ namespace NestaMigrations.Controllers
         [HttpGet("data-fixed-organisations")]
         public int DataFixedOrganisations()
         {
+            var orgTypes = DataFixedService.ImportOrgTypes().ToList();
+            Dictionary<int, MergeDec6ImpactTagsOrgType> orgTypesDic = new Dictionary<int, MergeDec6ImpactTagsOrgType>();
+            foreach (var orgType in orgTypes)
+            {
+                orgTypesDic.TryAdd(orgType.idOrg, orgType);
+            }
+
             var rows = DataFixedService.ImportProjects().OrderBy(x => x.idOrg).ToList();
-
             int i = 0;
-
             Dictionary<int, Organisation> dic = new Dictionary<int, Organisation>();
-
             foreach (var r in rows)
             {
                 try
@@ -991,6 +996,10 @@ namespace NestaMigrations.Controllers
                     int idOrganisation = Convert.ToInt32(r.idOrg);
                     int idCountry = Convert.ToInt32(r.idCountry);
                     int idCity = Convert.ToInt32(r.idCity);
+
+
+                    int orgType = 0;
+                    Int32.TryParse((orgTypesDic.GetValueOrDefault(idOrganisation)?.orgType), out orgType);
 
                     int count = 0;
                     Int32.TryParse(r.projCount, out count);
@@ -1012,8 +1021,8 @@ namespace NestaMigrations.Controllers
                         headerImage = "",
                         logo = "",
                         url = "",
-                        organisationSizeID = 0,
-                        organisationTypeID = 0,
+                        organisationSizeID = r.GetOrgSize(),
+                        organisationTypeID = orgType,
                         partnersCount = 0,
                         startDate = DateTime.Now,
                         address = ""
@@ -1031,6 +1040,34 @@ namespace NestaMigrations.Controllers
             }
 
             this._context.Organisations.AddRange(dic.Select(x => x.Value).ToList());
+            this._context.SaveChanges();
+            return i;
+        }
+
+        [HttpGet("data-fixed-tags")]
+        public int DataFixedTags()
+        {
+            var projectTags = DataFixedService.ImportProjectTags().ToList();
+            int i = 0;
+            var list = new List<ProjectImpactTagsA>();
+            foreach (var item in projectTags)
+            {
+                int idProject = 0;
+                int idTag = 0;
+                Int32.TryParse(item.idInitiative, out idProject);
+                Int32.TryParse(item.idTag, out idTag);
+
+                if (idProject > 0 && idTag > 0) {
+                    list.Add(new ProjectImpactTagsA() {
+                        projectID = idProject,
+                        tagID = idTag
+                    });
+
+                    i++;
+                }
+            }
+
+            this._context.ProjectImpactTagsA.AddRange(list);
             this._context.SaveChanges();
             return i;
         }

@@ -22,8 +22,9 @@ namespace NestaMigrations.Model
         public DbSet<Project> Projects { get; set; }
         public DbSet<Users> Users { get; set; }
         public DbSet<Translate> Translates { get; set; }
+        public DbSet<ProjectImpactTagsA> ProjectImpactTagsA { get; set; }
 
-
+        
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             //Table names
@@ -36,6 +37,7 @@ namespace NestaMigrations.Model
             modelBuilder.Entity<OrganisationTag>().ToTable("organisation-tags");
             modelBuilder.Entity<Users>().ToTable("users");
             modelBuilder.Entity<Translate>().ToTable("translate");
+            modelBuilder.Entity<ProjectImpactTagsA>().ToTable("project-impact-tags-a");
 
         }
     }

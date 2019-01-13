@@ -1,4 +1,4 @@
-Nombre de la organización,ID_org,Org Type
+orgName,idOrg,orgType
 13 Media SC,450,1
 180DATA,511,8
 AbrePuertoRico,586,8
@@ -582,7 +582,7 @@ Sonora Ciudadana AC,373,6
 SpaceshipsLabs,173,9
 Subsidios Claros,459,1
 SUMÁ,146,1
-Sumando Esfuerzos,605,
+Sumando Esfuerzos,605,0
 Tannder Corp,155,1
 Taturana Mobilização Social,368,6
 TECHO,78,6
@@ -609,10 +609,10 @@ Universidad Nacional (ViveLab),409,7
 Universidad Nacional de Rio Negro. ,441,7
 Universidad Rafael Landivar,610,7
 Universidade Federal de Santa Catarina ,32,7
-UNOSTRES,403,
-Update,415,
+UNOSTRES,403,0
+Update,415,0
 uSocial Maps,46,1
-UX,433,
+UX,433,0
 V-SMART S.A.,125,9
 "Veeduria Distrital de Bogotá, Veeduría Delegada para la Contratación",242,4
 "Veeduría Distrital de Bogotá, Veeduría Delegada para la Participación y los Programas Especiales",35,4
