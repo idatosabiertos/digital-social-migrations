@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace NestaMigrations.Model
 {
-    public class ProjectImpactTagsA
+    public class ProjectTags
     {
         [Key]
         public int id { get; set; }

@@ -893,8 +893,12 @@ namespace NestaMigrations.Controllers
                 {
                     int idCountry = Convert.ToInt32(r.idCountry);
                     int idCity = Convert.ToInt32(r.idCity);
-                    decimal latitude = Convert.ToDecimal(r.latitude);
-                    decimal longitude = Convert.ToDecimal(r.longitude);
+                    decimal latitude = 0;
+                    decimal longitude = 0;
+
+                    Decimal.TryParse(r.latitude, out latitude);
+                    Decimal.TryParse(r.longitude, out longitude);
+
 
                     dic.TryAdd(idCity, new CountryRegion()
                     {
@@ -1049,7 +1053,7 @@ namespace NestaMigrations.Controllers
         {
             var projectTags = DataFixedService.ImportProjectTags().ToList();
             int i = 0;
-            var list = new List<ProjectImpactTagsA>();
+            var list = new List<ProjectTags>();
             foreach (var item in projectTags)
             {
                 int idProject = 0;
@@ -1058,7 +1062,7 @@ namespace NestaMigrations.Controllers
                 Int32.TryParse(item.idTag, out idTag);
 
                 if (idProject > 0 && idTag > 0) {
-                    list.Add(new ProjectImpactTagsA() {
+                    list.Add(new ProjectTags() {
                         projectID = idProject,
                         tagID = idTag
                     });
@@ -1067,7 +1071,38 @@ namespace NestaMigrations.Controllers
                 }
             }
 
-            this._context.ProjectImpactTagsA.AddRange(list);
+            this._context.ProjectTags.AddRange(list);
+            this._context.SaveChanges();
+            return i;
+        }
+
+        [HttpGet("data-fixed-orgproj")]
+        public int DataOrgproj()
+        {
+            var items = DataFixedService.ImportProjects()
+                              .ToList();
+            int i = 0;
+            var list = new List<OrganisationProject>();
+            foreach (var item in items)
+            {
+                int idProject = 0;
+                int idOrg = 0;
+                Int32.TryParse(item.idInitiative, out idProject);
+                Int32.TryParse(item.idOrg, out idOrg);
+
+                if (idProject > 0 && idOrg > 0)
+                {
+                    list.Add(new OrganisationProject()
+                    {
+                        projectID = idProject,
+                        organisationID = idOrg
+                    });
+
+                    i++;
+                }
+            }
+
+            this._context.OrganisationProjects.AddRange(list);
             this._context.SaveChanges();
             return i;
         }
